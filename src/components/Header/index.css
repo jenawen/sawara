@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+  /* width: 100%; */
+  padding: 30px;
+  height: 3.5vh;
+  background-color: aliceblue;
+  overflow-x: hidden;
+  border-bottom: 3px solid white;
+  background-color: #4d4c7d;
+  color: white;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  width: 50%;
+}
