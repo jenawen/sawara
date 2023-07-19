@@ -1,17 +1,19 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
+import logo from "../../assets/logo.svg";
 
 const Header = (props: any) => {
   const { setPage } = props;
   return (
     <div className="header-container">
       <div
+        className="header-icon"
         onClick={() => {
           setPage("intro");
         }}
       >
-        icon
+        <img src={logo} />
       </div>
       <div className="header-links">
         <span

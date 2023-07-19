@@ -7,12 +7,19 @@
   align-content: stretch;
   /* width: 100%; */
   padding: 30px;
-  height: 3.5vh;
+  height: 4vh;
   background-color: aliceblue;
   overflow-x: hidden;
   border-bottom: 3px solid white;
   background-color: #4d4c7d;
   color: white;
+  overflow: hidden;
+}
+
+.header-icon {
+  margin-top: -10px;
+  margin-left: 10px;
+  padding: 0px;
 }
 
 .header-links {
@@ -23,4 +30,5 @@
   align-items: center;
   align-content: stretch;
   width: 50%;
+  margin-top: 5px;
 }

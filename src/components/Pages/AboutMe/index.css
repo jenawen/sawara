@@ -2,4 +2,31 @@
   height: 100vh;
   background-color: #4d4c7d;
   color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.about-me-pic {
+  padding: 50px;
+  margin-top: 20px;
+  filter: drop-shadow(-20px -30px 0px #827397);
+  width: 475px;
+}
+
+.about-me-header {
+  font-size: xxx-large;
+  text-decoration: underline;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.about-me-text {
+  margin-top: 50px;
+  font-size: x-large;
+  width: 45%;
+  padding-right: 60px;
 }

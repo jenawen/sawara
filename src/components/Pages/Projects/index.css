@@ -3,3 +3,12 @@
   background-color: #4d4c7d;
   color: white;
 }
+
+.projects-sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+}
