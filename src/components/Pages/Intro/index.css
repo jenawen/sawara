@@ -1,21 +1,69 @@
 .intro-page {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   align-content: stretch;
   /* margin-top: 100px; */
   color: white;
   background-color: black;
 }
-
 .intro-text {
-  margin-top: 100px;
+  margin-top: 120px;
+  margin-left: 140px;
   font-size: xxx-large;
+  font-family: biorhyme-bold;
 }
 
 .intro-pic {
-  margin-top: 100px;
+  margin-top: -100px;
+}
+
+.fade-in-0 {
+  transition: opacity 0.8s ease;
+  color: #d6a243;
+}
+.fade-in-1 {
+  transition: opacity 0.8s ease;
+  color: #ff9ab3;
+}
+.fade-in-2 {
+  transition: opacity 0.8s ease;
+  color: #68cc58;
+}
+.fade-in-3 {
+  transition: opacity 0.8s ease;
+  color: #fec203;
+}
+.fade-in-4 {
+  transition: opacity 0.8s ease;
+  color: #c9f3e8;
+}
+
+.fade-out-0 {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  color: #d6a243;
+}
+.fade-out-1 {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  color: #ff9ab3;
+}
+.fade-out-2 {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  color: #68cc58;
+}
+.fade-out-3 {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  color: #fec203;
+}
+.fade-out-4 {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  color: #c9f3e8;
 }

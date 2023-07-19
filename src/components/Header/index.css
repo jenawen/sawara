@@ -1,4 +1,4 @@
-.header-container {
+.header-container-false {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,19 +7,46 @@
   align-content: stretch;
   /* width: 100%; */
   padding: 30px;
-  height: 4vh;
+  height: 5.2vh;
   background-color: aliceblue;
   overflow-x: hidden;
   border-bottom: 3px solid white;
-  background-color: #4d4c7d;
+  background-color: #363062;
+
   color: white;
   overflow: hidden;
 }
 
+.header-container-true {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+  /* width: 100%; */
+  padding: 30px;
+  height: 5.2vh;
+  background-color: aliceblue;
+  overflow-x: hidden;
+  /* border-bottom: 3px solid white; */
+  background-color: #000000;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
 .header-icon {
   margin-top: -10px;
-  margin-left: 10px;
+  margin-left: 15px;
   padding: 0px;
+  filter: invert(93%) sepia(94%) saturate(31%) hue-rotate(95deg)
+    brightness(108%) contrast(100%);
+}
+.header-icon:hover {
+  filter: invert(67%) sepia(8%) saturate(2101%) hue-rotate(298deg)
+    brightness(104%) contrast(100%);
 }
 
 .header-links {
@@ -29,6 +56,24 @@
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
-  width: 50%;
+  width: 65%;
   margin-top: 5px;
+  font-size: large;
+}
+
+.link-1:hover {
+  text-decoration: underline;
+  color: #e9d5da;
+}
+.link-2:hover {
+  text-decoration: underline;
+  color: #e9d5da;
+}
+.link-3:hover {
+  text-decoration: underline;
+  color: #e9d5da;
+}
+.link-4:hover {
+  text-decoration: underline;
+  color: #e9d5da;
 }

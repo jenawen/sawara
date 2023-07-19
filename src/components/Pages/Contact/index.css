@@ -1,5 +1,130 @@
 .contact-page {
   height: 100vh;
-  background-color: #4d4c7d;
+  background-color: #363062;
   color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  overflow-y: hidden;
+}
+
+.contact-side {
+  width: 35%;
+  /* height: 100vh; */
+  background-color: #414170;
+  /* opacity: 40%; */
+  overflow-y: hidden;
+}
+.contact-inner-side {
+  height: 100%;
+  width: 88%;
+  margin-top: 50px;
+  background-color: #4d4c7d;
+  /* padding: 20px; */
+}
+
+.contact-text {
+  padding: 50px;
+  font-size: large;
+}
+
+.contact-header {
+  font-size: xxx-large;
+  font-family: biorhyme;
+}
+
+.contact-envelope {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  position: relative;
+  margin-top: 8%;
+}
+
+.env-fold {
+  margin-bottom: 510px;
+  position: absolute;
+  z-index: 6;
+}
+
+.env-form {
+  width: 490px;
+  height: 410px;
+  position: absolute;
+  z-index: 7;
+  background-color: white;
+  margin-bottom: 380px;
+  border-radius: 8px;
+}
+.env-sides {
+  position: absolute;
+  z-index: 8;
+  /* margin-top: 120px; */
+}
+
+.env-front {
+  position: absolute;
+  z-index: 10;
+  margin-top: 120px;
+}
+
+.inputs {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  color: black;
+  padding: 5px;
+  font-family: opensans;
+  /* position: absolute;
+  z-index: 6; */
+}
+
+.send-btn {
+  /* text-align: center; */
+  /* z-index: 11; */
+}
+
+.send {
+  border: 1px solid black;
+  border-radius: 16px;
+  font-size: 12px;
+  color: black;
+  font-family: opensans;
+  background-color: white;
+  position: relative;
+  z-index: 5;
+  top: 30px;
+  /* left: 205px; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.send:hover {
+  background-color: #363062;
+  color: white;
+}
+
+input {
+  width: 70%;
+  font-size: medium;
+}
+textarea {
+  width: 70%;
+  height: 60px;
 }

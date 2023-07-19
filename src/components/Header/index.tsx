@@ -2,24 +2,38 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
 import logo from "../../assets/logo.svg";
+import sb from "../../assets/sb.svg";
+import { useEffect, useState } from "react";
 
 const Header = (props: any) => {
-  const { setPage } = props;
+  const { setPage, page } = props;
+  const [isIntro, setIsIntro] = useState(true);
+
+  useEffect(() => {
+    if (page === "intro") {
+      setIsIntro(true);
+    } else setIsIntro(false);
+  }, [page]);
+
+  console.log(page);
+  console.log(isIntro);
+
   return (
-    <div className="header-container">
+    <div className={`header-container-${isIntro}`}>
       <div
         className="header-icon"
         onClick={() => {
           setPage("intro");
         }}
       >
-        <img src={logo} />
+        <img src={sb} />
       </div>
       <div className="header-links">
         <span
           onClick={() => {
             setPage("projects");
           }}
+          className="link-1"
         >
           {" "}
           Projects
@@ -28,6 +42,7 @@ const Header = (props: any) => {
           onClick={() => {
             setPage("about");
           }}
+          className="link-2"
         >
           {" "}
           About Me
@@ -36,6 +51,7 @@ const Header = (props: any) => {
           onClick={() => {
             setPage("resume");
           }}
+          className="link-3"
         >
           {" "}
           Resume
@@ -44,6 +60,7 @@ const Header = (props: any) => {
           onClick={() => {
             setPage("contact");
           }}
+          className="link-4"
         >
           {" "}
           Contact

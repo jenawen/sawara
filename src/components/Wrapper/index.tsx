@@ -12,7 +12,7 @@ const Wrapper = () => {
 
   return (
     <div className="parent-wrapper">
-      <Header setPage={setPage} />
+      <Header setPage={setPage} page={page} />
       {page === "intro" ? (
         <>
           <Intro />
