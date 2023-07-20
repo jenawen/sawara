@@ -99,6 +99,7 @@
   align-items: stretch;
   align-content: stretch;
   /* width: 50%; */
+  max-width: 46%;
 }
 
 .mc-header {
@@ -114,7 +115,7 @@
 }
 
 .issue {
-  width: 100vw;
+  padding: 24px 45px;
 }
 .research {
   /* width: 100vw; */

@@ -45,33 +45,34 @@
   align-items: center;
   align-content: stretch;
   position: relative;
-  margin-top: 8%;
+  margin-top: 20%;
+  z-index: 0;
 }
 
 .env-fold {
   margin-bottom: 510px;
   position: absolute;
-  z-index: 6;
+  z-index: -3;
 }
 
 .env-form {
   width: 490px;
-  height: 410px;
+  height: 500px;
   position: absolute;
-  z-index: 7;
+  z-index: -2;
   background-color: white;
   margin-bottom: 380px;
   border-radius: 8px;
 }
 .env-sides {
   position: absolute;
-  z-index: 8;
+  z-index: -2;
   /* margin-top: 120px; */
 }
 
 .env-front {
   position: absolute;
-  z-index: 10;
+  z-index: -1;
   margin-top: 120px;
 }
 
@@ -102,10 +103,11 @@
   color: black;
   font-family: opensans;
   background-color: white;
-  position: relative;
-  z-index: 5;
-  top: 30px;
-  /* left: 205px; */
+  position: absolute;
+  z-index: 8;
+  top: 260px;
+  left: 220px;
+  /* need media query lol */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -113,6 +115,7 @@
   justify-content: center;
   align-items: center;
   align-content: stretch;
+  padding: 3px 10px;
 }
 
 .send:hover {

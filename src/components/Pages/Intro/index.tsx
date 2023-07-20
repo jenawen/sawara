@@ -39,11 +39,11 @@ const Intro = () => {
   return (
     <div className="intro-page">
       <div className="intro-text">
-        <p>Hi, I am Sawara.</p>
-        <p>
+        <div>Hi, I am Sawara.</div>
+        <div>
           I{" "}
           <span className={`${fade.fade}-${order}`}> {introWords[order]}</span>
-        </p>
+        </div>
       </div>
       <div className="intro-pic">
         {" "}

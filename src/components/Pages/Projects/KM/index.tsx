@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import km1 from "../../../../assets/KM/km1.svg";
 import km2 from "../../../../assets/KM/km2.svg";
 import km3 from "../../../../assets/KM/km3.svg";
@@ -72,7 +73,7 @@ const KM = () => {
           <ol type="1">
             <li>
               {" "}
-              Job shadowing: Observed the  call center agents as they performed
+              Job shadowing: Observed the call center agents as they performed
               their work {" "}
             </li>
             <li>
