@@ -1,10 +1,16 @@
+import { useState } from "react";
 import "./index.css";
+import ExpressPay from "./ExpressPay";
+import KM from "./KM";
+import Crowdplat from "./Crowdplat";
 const Projects = () => {
+  const [project, setProject] = useState("none");
+
   const projects = [
     {
-      projectTitle: "Access IQ",
-      projectImg: "accessiq",
-      projectDesc: "Access IQ Description",
+      projectTitle: "Express Pay",
+      projectImg: "ep",
+      projectDesc: "Express Pay Description",
       projectIcon: "c1b",
     },
     {
@@ -22,16 +28,34 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-page">
-      <div className="projects-sections">
-        {" "}
-        {projects.map((e) => (
-          <div>
-            <div> {e.projectTitle} </div>
+    <>
+      {project === "Express Pay" ? (
+        <ExpressPay />
+      ) : project === "Knowledge Management" ? (
+        <KM />
+      ) : project === "Crowdplat" ? (
+        <Crowdplat />
+      ) : project === "none" ? (
+        <div className="projects-page">
+          <div className="projects-sections">
+            {" "}
+            {projects.map((e, i) => (
+              <div className="project" key={i}>
+                <div> {e.projectTitle} </div>
+                <button
+                  onClick={() => {
+                    setProject(e.projectTitle);
+                  }}
+                >
+                  {" "}
+                  view{" "}
+                </button>
+              </div>
+            ))}{" "}
           </div>
-        ))}{" "}
-      </div>
-    </div>
+        </div>
+      ) : null}
+    </>
   );
 };
 

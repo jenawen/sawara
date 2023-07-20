@@ -46,8 +46,6 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  position: absolute;
-  z-index: 20;
 }
 button:hover {
   border-color: #646cff;
@@ -62,7 +60,7 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
   a:hover {
     color: #747bff;
