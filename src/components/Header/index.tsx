@@ -4,6 +4,7 @@ import "./index.css";
 import logo from "../../assets/logo.svg";
 import sb from "../../assets/sb.svg";
 import { useEffect, useState } from "react";
+import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
 const Header = (props: any) => {
   const { setPage, page } = props;
@@ -47,15 +48,16 @@ const Header = (props: any) => {
           {" "}
           About Me
         </span>
-        <span
-          onClick={() => {
-            setPage("resume");
-          }}
-          className="link-3"
+        <a
+          href={resume}
+          download="sawara_bhattarai_resume"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: "white", fontWeight: "460" }}
         >
           {" "}
           Resume
-        </span>
+        </a>
         <span
           onClick={() => {
             setPage("contact");

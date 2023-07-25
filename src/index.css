@@ -38,17 +38,17 @@ h1 {
 
 button {
   border-radius: 16px;
-  border: 1px solid transparent;
+  border: 1px solid black;
   padding: 0.3em 1.2em;
-  font-size: 1em;
+  font-size: medium;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  background-color: transparent;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: black;
 }
 button:focus,
 button:focus-visible {
@@ -66,7 +66,7 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: transparent;
   }
 }
 

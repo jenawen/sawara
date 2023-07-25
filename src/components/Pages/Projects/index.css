@@ -8,19 +8,29 @@
   width: 100vw;
   height: 100vh;
   background-color: #faf0fc;
+  /* padding: 0px 20px; */
+  overflow-x: hidden;
 }
 
 .projects-page-sections {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: stretch;
   align-content: stretch;
   color: black;
   width: 100vw;
 }
 
+.ecolumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
 .projects-page-title {
   margin-top: 30px;
   font-size: xx-large;
@@ -31,12 +41,54 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  width: auto;
-  padding: 30px;
+  align-content: stretch;
+  padding: 30px 30px 0px 30px;
+  height: 72vh;
 }
 
+.each-project:hover {
+  transform: scale(1.02);
+}
+
+.e-text {
+  text-align: center;
+  margin-top: -80px;
+}
+
+.e-projectTitle {
+  font-family: biorhyme;
+  font-size: 26px;
+  padding-top: 35px;
+}
+
+.e-projectDesc {
+  font-size: 18px;
+  padding-bottom: 15px;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.e-icon {
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  padding: 20px 6px;
+  margin-top: -10px;
+}
+
+.e-border {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid black;
+}
 .project-page {
   /* height: 100vh; */
   background-color: #ffffff;
@@ -164,6 +216,17 @@ li {
   font-size: 20px;
 }
 
-img {
+/* img {
   margin-bottom: 24px;
+} */
+
+#project-btn {
+  color: white;
+  background-color: #4c2f63;
+  font-size: large;
+  margin-top: 20px;
+}
+#project-btn:hover {
+  color: black;
+  background-color: transparent;
 }
