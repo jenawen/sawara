@@ -1,8 +1,9 @@
 .about-me-page {
   height: 100vh;
-  background-color: #363062;
+  background-color: #faf0fc;
 
-  color: white;
+  color: black;
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -21,13 +22,12 @@
 .about-me-header {
   font-size: xxx-large;
   text-decoration: underline;
-  padding-bottom: 15px;
   letter-spacing: 1px;
   font-family: biorhyme;
 }
 
 .about-me-text {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: large;
   width: 45%;
   padding-right: 60px;
