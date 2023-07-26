@@ -3,6 +3,7 @@
 import "./index.css";
 import logo from "../../assets/logo.svg";
 import sb from "../../assets/sb.svg";
+import dl from "../../assets/dl.svg";
 import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
@@ -54,9 +55,11 @@ const Header = (props: any) => {
           target="_blank"
           rel="noreferrer"
           style={{ color: "white", fontWeight: "460" }}
+          className="resume-link"
         >
           {" "}
           Resume
+          <img style={{ width: "20px", marginLeft: "5px" }} src={dl} />
         </a>
         <span
           onClick={() => {

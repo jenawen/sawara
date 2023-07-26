@@ -81,6 +81,11 @@
   align-content: stretch;
   padding: 20px 6px;
   margin-top: -10px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.e-icon:hover {
+  transform: rotate(360deg);
 }
 
 .e-border {
@@ -186,6 +191,7 @@
 .research {
   /* width: 100vw; */
   padding: 24px 45px;
+  /* text-align: center; */
 }
 .insights {
   padding: 24px 45px;

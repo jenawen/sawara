@@ -11,19 +11,38 @@ const AboutMe = () => {
         <div className="about-me-header"> About Me</div>
         <p>
           {" "}
-          Hi there! I'm Sawara Bhattarai, a passionate Lead UI/UX Designer with
-          a strong background in Computer Science. Currently, I lead UI/UX
-          design at Credit One Bank, driving innovation by mobilizing our
-          workforce with new web-based tools. I thrive on anticipating user
-          needs, executing the UX vision, and continuously evolving it over
-          time.
+          Hi there! I'm Sawara Bhattarai, a passionate{" "}
+          <span style={{ color: "#b369ee" }}>Lead UI/UX Designer </span>with a
+          strong background in Computer Science. Currently, I lead UI/UX design
+          at{" "}
+          <span
+            onClick={() => {
+              window.open("https://www.creditonebank.com/", "_blank");
+            }}
+            style={{ color: "#b369ee" }}
+          >
+            Credit One Bank
+          </span>
+          , driving innovation by mobilizing our workforce with new web-based
+          tools. I thrive on anticipating user needs, executing the UX vision,
+          and continuously evolving it over time.
         </p>
         <p>
           {" "}
-          With experience in Figma, Sketch, and more, I excel in wireframing,
-          rapid prototyping, and design research. Let's connect on LinkedIn to
-          discuss design and technology. Reach me at bhattaraisawara2@gmail.com
-          or (626) 321-7662.
+          With experience in Figma, Sketch, and more, I excel in{" "}
+          <span style={{ color: "#b369ee" }}>
+            wireframing, rapid prototyping, and design research.
+          </span>{" "}
+          Let's connect on LinkedIn to discuss design and technology.
+        </p>
+
+        <p>
+          Reach me at
+          <span style={{ color: "#b369ee" }}>
+            {" "}
+            bhattaraisawara2@gmail.com
+          </span>{" "}
+          or <span style={{ color: "#b369ee" }}>(626) 321-7662.</span>
         </p>
 
         <p> Let's create remarkable experiences together! </p>

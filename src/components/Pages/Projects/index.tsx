@@ -32,7 +32,7 @@ const Projects = () => {
       projectTitle: "Crowdplat",
       projectImg: crowdplat,
       projectDesc:
-        "Mobile App And Responsive Web Design for a crowdsourcing company.",
+        "Mobile App and Responsive Web Design for a crowdsourcing company.",
       projectIcon: cplogo,
     },
   ];
@@ -74,7 +74,7 @@ const Projects = () => {
                       }}
                     >
                       {" "}
-                      view{" "}
+                      View{" "}
                     </button>
                   </div>
 

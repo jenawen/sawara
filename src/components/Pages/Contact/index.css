@@ -27,8 +27,15 @@
 }
 
 .contact-text {
-  padding: 50px;
-  font-size: large;
+  padding: 35px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+  height: 85vh;
 }
 
 .contact-header {
@@ -45,7 +52,7 @@
   align-items: center;
   align-content: stretch;
   position: relative;
-  margin-top: 20%;
+  margin-top: 15%;
   z-index: 0;
 }
 
@@ -55,7 +62,7 @@
   z-index: -3;
 }
 
-.env-form {
+.env-form-0 {
   width: 490px;
   height: 500px;
   position: absolute;
@@ -64,6 +71,43 @@
   margin-bottom: 380px;
   border-radius: 8px;
 }
+.env-form-1 {
+  width: 490px;
+  height: 500px;
+  position: absolute;
+  z-index: -2;
+  background-color: white;
+  margin-bottom: 250px;
+  border-radius: 8px;
+}
+.env-form-2 {
+  width: 490px;
+  height: 420px;
+  position: absolute;
+  z-index: -2;
+  background-color: white;
+  margin-bottom: 150px;
+  border-radius: 8px;
+}
+.env-form-3 {
+  width: 490px;
+  height: 300px;
+  position: absolute;
+  z-index: -2;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+
+.contact-sent {
+  color: black;
+  font-size: xx-large;
+  padding-bottom: 50px;
+  font-family: biorhyme;
+  position: absolute;
+  top: 10px;
+}
+
 .env-sides {
   position: absolute;
   z-index: -2;
@@ -99,7 +143,7 @@
 .send {
   border: 1px solid black;
   border-radius: 16px;
-  font-size: 12px;
+  font-size: 16px;
   color: black;
   font-family: opensans;
   background-color: white;

@@ -77,3 +77,16 @@
   text-decoration: underline;
   color: #e9d5da;
 }
+
+.resume-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.resume-link:hover {
+  text-decoration: underline;
+  color: #e9d5da;
+}
