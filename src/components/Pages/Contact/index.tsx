@@ -50,7 +50,6 @@ const Contact = () => {
         setSubmitted(true);
       })
       .catch((err) => {
-        // Submit the form manually
         e.target.submit();
         console.warn(err);
       });
