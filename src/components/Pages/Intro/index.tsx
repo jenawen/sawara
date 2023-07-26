@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./index.css";
 import landing from "../../../assets/landing.svg";
 import { useEffect, useState } from "react";

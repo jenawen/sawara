@@ -1,7 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/restrict-template-expressions */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
-import logo from "../../assets/logo.svg";
+
 import sb from "../../assets/sb.svg";
 import dl from "../../assets/dl.svg";
 import { useEffect, useState } from "react";

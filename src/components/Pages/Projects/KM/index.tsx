@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-irregular-whitespace */
 import km1 from "../../../../assets/KM/km1.svg";
 import km2 from "../../../../assets/KM/km2.svg";

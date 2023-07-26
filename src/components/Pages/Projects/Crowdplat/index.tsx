@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import cp1 from "../../../../assets/CP/cp1.svg";
 import cp2 from "../../../../assets/CP/cp2.svg";
 import cp3 from "../../../../assets/CP/cp3.svg";

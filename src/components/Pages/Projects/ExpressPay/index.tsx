@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import "../index.css";
 import ep1 from "../../../../assets/EP/ep1.svg";
 import ep2 from "../../../../assets/EP/ep2.svg";
