@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
 const Header = (props: any) => {
-  const { setPage, page } = props;
+  const { setPage, page, setProject } = props;
   const [isIntro, setIsIntro] = useState(true);
 
   useEffect(() => {
@@ -35,6 +35,7 @@ const Header = (props: any) => {
         <span
           onClick={() => {
             setPage("projects");
+            setProject("none");
           }}
           className="link-1"
         >

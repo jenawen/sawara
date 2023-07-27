@@ -175,8 +175,8 @@ const Crowdplat = () => {
               a consistent layout.
             </li>
           </ul>
-          <img src={cp1} />
-          <img src={cp2} />
+          <img style={{ display: "block", margin: "auto" }} src={cp1} />
+          <img style={{ display: "block", margin: "auto" }} src={cp2} />
           <ul>
             <li>
               Move away from having just a landing page and have information
@@ -185,13 +185,13 @@ const Crowdplat = () => {
             </li>
           </ul>
 
-          <img src={cp3} />
-          <img src={cp4} />
+          <img style={{ display: "block", margin: "auto" }} src={cp3} />
+          <img style={{ display: "block", margin: "auto" }} src={cp4} />
 
           <ul>
             <li>Layout for Desktop View</li>
           </ul>
-          <img src={cp5} style={{ marginLeft: "140px" }} />
+          <img src={cp5} style={{ display: "block", margin: "auto" }} />
 
           <ul>
             <li>Layout for Mobile View</li>
@@ -212,11 +212,11 @@ const Crowdplat = () => {
             Here are the final designs for the webpages and mobile app, after
             applying visual identity.
           </p>
-          <img src={cp6} />
-          <img src={cp7} />
-          <img src={cp8} />
-          <img src={cp9} />
-          <img src={cp10} />
+          <img style={{ display: "block", margin: "auto" }} src={cp6} />
+          <img style={{ display: "block", margin: "auto" }} src={cp7} />
+          <img style={{ display: "block", margin: "auto" }} src={cp8} />
+          <img style={{ display: "block", margin: "auto" }} src={cp9} />
+          <img style={{ display: "block", margin: "auto" }} src={cp10} />
           <p>
             As of today, the site it live and you can check it{" "}
             <span

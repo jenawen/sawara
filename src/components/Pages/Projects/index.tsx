@@ -1,4 +1,7 @@
-import { useState } from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+// import { useState } from "react";
 import "./index.css";
 import ExpressPay from "./ExpressPay";
 import KM from "./KM";
@@ -9,8 +12,8 @@ import crowdplat from "../../../assets/crowdplat.svg";
 import cplogo from "../../../assets/cplogo.svg";
 import c1blogo from "../../../assets/c1blogo.svg";
 
-const Projects = () => {
-  const [project, setProject] = useState("none");
+const Projects = (props: any) => {
+  const { project, setProject } = props;
 
   const projects = [
     {

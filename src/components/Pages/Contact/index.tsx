@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/restrict-template-expressions */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
@@ -120,7 +121,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact-envelope">
+        <div className={`contact-envelope`}>
           {sent ? <div className="contact-sent">{sent}</div> : null}
           {showEnvelope === "none" ? (
             <>

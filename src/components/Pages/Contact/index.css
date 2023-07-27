@@ -64,6 +64,16 @@
   font-family: biorhyme;
 }
 
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .contact-envelope {
   width: 65%;
   display: flex;
@@ -75,6 +85,7 @@
   position: relative;
   margin-top: 12%;
   z-index: 0;
+  /* animation: fade-out 2.5s ease-out infinite alternate; */
   @media screen and (max-width: 1366px) {
     width: 65%;
     margin-top: 18%;
@@ -99,6 +110,7 @@
   z-index: -2;
   background-color: white;
   border-radius: 8px;
+  /* animation-delay: 2.5s; */
   @media screen and (max-width: 1366px) {
     width: 490px;
     height: 500px;
@@ -113,6 +125,7 @@
   z-index: -2;
   background-color: white;
   border-radius: 8px;
+  /* animation-delay: 2.5s; */
   @media screen and (max-width: 1366px) {
     width: 490px;
     height: 500px;
@@ -127,6 +140,7 @@
   z-index: -2;
   background-color: white;
   border-radius: 8px;
+  animation-delay: 2.5s;
   @media screen and (max-width: 1366px) {
     width: 490px;
     height: 420px;
@@ -141,6 +155,7 @@
   z-index: -2;
   background-color: white;
   border-radius: 8px;
+  /* animation-delay: 2.5s; */
   @media screen and (max-width: 1366px) {
     width: 490px;
     height: 300px;

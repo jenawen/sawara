@@ -140,8 +140,8 @@ const KM = () => {
           {" "}
           <div className="section-header">Design Process</div>
           <p>A basic stripped down architecture of the app</p>
-          <img src={km1} />
-          <img src={km2} />
+          <img style={{ display: "block", margin: "auto" }} src={km1} />
+          <img style={{ display: "block", margin: "auto" }} src={km2} />
           <p>
             Key features added:
             <ul>
@@ -153,20 +153,20 @@ const KM = () => {
               </li>
             </ul>
           </p>
-          <img src={km3} />
-          <img src={km4} />
+          <img style={{ display: "block", margin: "auto" }} src={km3} />
+          <img style={{ display: "block", margin: "auto" }} src={km4} />
           <ul>
             <li>Contribution Page (CS Call Agents, Writer, Admin)</li>
           </ul>
-          <img src={km5} />
+          <img style={{ display: "block", margin: "auto" }} src={km5} />
           <ul>
             <li>Feedback System</li>
           </ul>
-          <img src={km6} />
+          <img style={{ display: "block", margin: "auto" }} src={km6} />
           <ul>
             <li>Content History Page</li>
           </ul>
-          <img src={km7} />
+          <img style={{ display: "block", margin: "auto" }} src={km7} />
         </div>
 
         <div className="result">

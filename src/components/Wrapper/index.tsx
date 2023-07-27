@@ -9,17 +9,23 @@ import Contact from "../Pages/Contact";
 
 const Wrapper = () => {
   const [page, setPage] = useState("intro");
+  const [project, setProject] = useState("none");
 
   return (
     <div className="parent-wrapper">
-      <Header setPage={setPage} page={page} />
+      <Header
+        setPage={setPage}
+        page={page}
+        project={project}
+        setProject={setProject}
+      />
       {page === "intro" ? (
         <>
           <Intro />
         </>
       ) : page === "projects" ? (
         <>
-          <Projects />
+          <Projects project={project} setProject={setProject} />
         </>
       ) : page === "about" ? (
         <>

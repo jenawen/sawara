@@ -128,8 +128,8 @@ const ExpressPay = () => {
             <li>Moderated testing</li>
             <li>Questionnaires</li>
           </ul>
-          <img src={ep1} />
-          <img src={ep2} />
+          <img style={{ display: "block", margin: "auto" }} src={ep1} />
+          <img style={{ display: "block", margin: "auto" }} src={ep2} />
         </div>
 
         <div className="insights">
@@ -169,7 +169,7 @@ const ExpressPay = () => {
               that meets the needs of the bank and its customers.{" "}
             </li>
           </ul>
-          <img src={ep3} />
+          <img style={{ display: "block", margin: "auto" }} src={ep3} />
         </div>
 
         <div className="goals">
@@ -199,15 +199,15 @@ const ExpressPay = () => {
           {" "}
           <div className="section-header">Design Process</div>
           <p>Information Architecture</p>
-          <img src={ep4} />
+          <img style={{ display: "block", margin: "auto" }} src={ep4} />
           <p>Journey Maps</p>
-          <img src={ep5} />
-          <img src={ep6} />
+          <img style={{ display: "block", margin: "auto" }} src={ep5} />
+          <img style={{ display: "block", margin: "auto" }} src={ep6} />
           <p>Wireframes</p>
-          <img src={ep7} />
-          <img src={ep8} />
-          <img src={ep9} />
-          <img src={ep10} />
+          <img style={{ display: "block", margin: "auto" }} src={ep7} />
+          <img style={{ display: "block", margin: "auto" }} src={ep8} />
+          <img style={{ display: "block", margin: "auto" }} src={ep9} />
+          <img style={{ display: "block", margin: "auto" }} src={ep10} />
         </div>
 
         <div className="result">
