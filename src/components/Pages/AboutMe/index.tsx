@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="about-me-page">
       <div className="about-me-pic">
-        <img src={aboutme} />
+        <img id={"sawara-abt"} src={aboutme} />
       </div>
 
       <div className="about-me-text">
@@ -19,6 +19,7 @@ const AboutMe = () => {
             onClick={() => {
               window.open("https://www.creditonebank.com/", "_blank");
             }}
+            className="c1bspan"
             style={{ color: "#b369ee" }}
           >
             Credit One Bank

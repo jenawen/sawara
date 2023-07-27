@@ -212,6 +212,7 @@
 .design-process {
   padding: 24px 45px;
   background-color: #f7f7f7;
+  width: 100%;
 }
 .result {
   padding: 24px 45px;
@@ -221,7 +222,7 @@
   padding: 24px 45px;
   background-color: #363062;
   color: white;
-  width: 92%;
+  width: 100%;
 }
 
 p {

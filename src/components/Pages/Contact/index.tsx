@@ -104,7 +104,17 @@ const Contact = () => {
                 <span className="contact-header">Contact</span>
                 <div>Phone : 626-321-7662</div>
                 <div>Email: bhattaraisawar15@gmail.com</div>
-                <div>Linkedin</div>
+                <div
+                  className="li-link"
+                  onClick={() => {
+                    window.open(
+                      "https://www.linkedin.com/in/sawara-bhattarai.com/",
+                      "_blank"
+                    );
+                  }}
+                >
+                  Linkedin
+                </div>
               </div>
               <div>© 2023 by Sawara Bhattarai </div>
             </div>

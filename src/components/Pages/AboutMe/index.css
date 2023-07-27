@@ -1,5 +1,5 @@
 .about-me-page {
-  height: 100vh;
+  height: 90vh;
   background-color: #faf0fc;
 
   color: black;
@@ -10,6 +10,10 @@
   justify-content: space-evenly;
   align-items: flex-start;
   align-content: stretch;
+  padding-top: 40px;
+  @media screen and (max-width: 1366px) {
+    height: 100vh;
+  }
 }
 
 .about-me-pic {
@@ -17,6 +21,10 @@
   margin-top: 20px;
   filter: drop-shadow(-20px -30px 0px #827397);
   width: 475px;
+}
+
+#sawara-abt {
+  width: 500px;
 }
 
 .about-me-header {
@@ -48,8 +56,10 @@
   @media screen and (max-width: 1366px) {
     margin-top: 40px;
     font-size: large;
-    width: 45%;
-    padding-right: 60px;
-    font-family: opensans;
   }
+}
+
+.c1bspan:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

@@ -233,6 +233,11 @@
   color: white;
 }
 
+.li-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 input {
   width: 80%;
   font-size: medium;

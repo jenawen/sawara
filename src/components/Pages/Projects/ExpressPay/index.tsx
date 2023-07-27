@@ -222,7 +222,9 @@ const ExpressPay = () => {
 
         <div className="thanks">
           {" "}
-          <div className="section-header">Thank You!</div>
+          <div style={{ color: "white" }} className="section-header">
+            Thank You!
+          </div>
           <p>
             Thank you for reviewing my work. If you have any questions or want
             to just connect - feel free to reach out to me via email.
