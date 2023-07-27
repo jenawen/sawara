@@ -48,7 +48,7 @@ const Intro = () => {
       </div>
       <div className="intro-pic">
         {" "}
-        <img src={landing} />
+        <img id={"sawara-intro"} src={landing} />
       </div>
     </div>
   );

@@ -1,15 +1,17 @@
 import { useState } from "react";
 import "./index.css";
-import ExpressPay from "./ExpressPay";
-import KM from "./KM";
-import Crowdplat from "./Crowdplat";
+
 import aiq from "../../../assets/aiq.svg";
 import km from "../../../assets/km.svg";
 import crowdplat from "../../../assets/crowdplat.svg";
 import cplogo from "../../../assets/cplogo.svg";
 import c1blogo from "../../../assets/c1blogo.svg";
+import ExpressPay from "../../Pages/Projects/ExpressPay";
+import KM from "../../Pages/Projects/KM";
+import Crowdplat from "../../Pages/Projects/Crowdplat";
 
-const Projects = () => {
+const Projects2 = (props: any) => {
+  const { setPage, page } = props;
   const [project, setProject] = useState("none");
 
   const projects = [
@@ -39,22 +41,29 @@ const Projects = () => {
 
   return (
     <>
-      {project === "Express Pay" ? (
+      {project === "Express Pay" || page === "hi" ? (
         <ExpressPay />
-      ) : project === "Knowledge Management" ? (
+      ) : project === "Knowledge Management" || page === "hi" ? (
         <KM />
-      ) : project === "Crowdplat" ? (
+      ) : project === "Crowdplat" || page === "hi" ? (
         <Crowdplat />
       ) : project === "none" ? (
         <>
           <div className="projects-page-parent">
-            <div className="projects-page-title">My Projects</div>
+            <div className="projects-page-title">My Projects </div>
             {/* SECTION DIV */}
             <div className="projects-page-sections">
               {projects.map((e, i) => (
                 <div className={`each-project`} key={i}>
                   <div>
-                    <img id={"project-photo"} src={`${e.projectImg}`} />{" "}
+                    <img
+                      style={{
+                        height: "180px",
+                        // width: "290px",
+                        boxShadow: "4px 3px 8px gray",
+                      }}
+                      src={`${e.projectImg}`}
+                    />{" "}
                   </div>
 
                   <div className="e-text">
@@ -64,6 +73,7 @@ const Projects = () => {
                       id={"project-btn"}
                       onClick={() => {
                         setProject(e.projectTitle);
+                        setPage("hi");
                       }}
                     >
                       {" "}
@@ -85,4 +95,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects2;

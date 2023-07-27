@@ -33,11 +33,8 @@
 }
 .projects-page-title {
   margin-top: 30px;
-  font-size: 48px;
+  font-size: xx-large;
   font-family: biorhyme;
-  @media screen and (max-width: 1366px) {
-    font-size: xx-large;
-  }
 }
 
 .each-project {
@@ -62,22 +59,15 @@
 
 .e-projectTitle {
   font-family: biorhyme;
-  font-size: 28px;
+  font-size: 26px;
   padding-top: 35px;
-  @media screen and (max-width: 1366px) {
-    font-size: 26px;
-  }
 }
 
 .e-projectDesc {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 15px;
   text-align: center;
-  padding: 10px 20px;
-  @media screen and (max-width: 1366px) {
-    font-size: 18px;
-    padding: 10px 15px;
-  }
+  padding: 10px 15px;
 }
 
 .e-icon {
@@ -245,14 +235,4 @@ li {
 #project-btn:hover {
   color: black;
   background-color: transparent;
-}
-
-#project-photo {
-  height: 250px;
-  box-shadow: 4px 3px 8px gray;
-  @media screen and (max-width: 1366px) {
-    height: 180px;
-
-    box-shadow: 4px 3px 8px gray;
-  }
 }

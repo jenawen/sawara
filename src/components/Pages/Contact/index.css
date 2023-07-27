@@ -28,7 +28,7 @@
 
 .contact-text {
   padding: 35px;
-  font-size: 20px;
+  font-size: x-large;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -36,6 +36,27 @@
   align-items: flex-start;
   align-content: stretch;
   height: 85vh;
+  @media screen and (max-width: 1366px) {
+    padding: 35px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+    height: 85vh;
+  }
+}
+
+.contact-inner-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  height: 30vh;
 }
 
 .contact-header {
@@ -52,51 +73,79 @@
   align-items: center;
   align-content: stretch;
   position: relative;
-  margin-top: 18%;
+  margin-top: 12%;
   z-index: 0;
+  @media screen and (max-width: 1366px) {
+    width: 65%;
+    margin-top: 18%;
+  }
 }
 
 .env-fold {
-  margin-bottom: 510px;
+  margin-bottom: 580px;
   position: absolute;
   z-index: -3;
+
+  @media screen and (max-width: 1366px) {
+    margin-bottom: 510px;
+  }
 }
 
 .env-form-0 {
-  width: 490px;
-  height: 500px;
+  width: 590px;
+  height: 600px;
+  margin-bottom: 380px;
   position: absolute;
   z-index: -2;
   background-color: white;
-  margin-bottom: 380px;
   border-radius: 8px;
+  @media screen and (max-width: 1366px) {
+    width: 490px;
+    height: 500px;
+    margin-bottom: 380px;
+  }
 }
 .env-form-1 {
-  width: 490px;
+  width: 590px;
   height: 500px;
+  margin-bottom: 250px;
   position: absolute;
   z-index: -2;
   background-color: white;
-  margin-bottom: 250px;
   border-radius: 8px;
+  @media screen and (max-width: 1366px) {
+    width: 490px;
+    height: 500px;
+    margin-bottom: 250px;
+  }
 }
 .env-form-2 {
-  width: 490px;
+  width: 590px;
   height: 420px;
+  margin-bottom: 150px;
   position: absolute;
   z-index: -2;
   background-color: white;
-  margin-bottom: 150px;
   border-radius: 8px;
+  @media screen and (max-width: 1366px) {
+    width: 490px;
+    height: 420px;
+    margin-bottom: 150px;
+  }
 }
 .env-form-3 {
-  width: 490px;
+  width: 590px;
   height: 300px;
+  margin-bottom: 50px;
   position: absolute;
   z-index: -2;
   background-color: white;
-  margin-bottom: 50px;
   border-radius: 8px;
+  @media screen and (max-width: 1366px) {
+    width: 490px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
 }
 
 .contact-sent {
@@ -144,8 +193,8 @@
   background-color: white;
   position: absolute;
   z-index: 8;
-  top: 260px;
-  left: 220px;
+  top: 290px;
+  left: 265px;
   /* need media query lol */
   margin: auto;
   display: flex;
@@ -155,6 +204,28 @@
   align-items: center;
   align-content: stretch;
   padding: 3px 10px;
+
+  @media screen and (max-width: 1366px) {
+    border: 1px solid black;
+    border-radius: 16px;
+    font-size: 16px;
+    color: black;
+    font-family: opensans;
+    background-color: white;
+    position: absolute;
+    z-index: 8;
+    top: 260px;
+    left: 220px;
+    /* need media query lol */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding: 3px 10px;
+  }
 }
 
 .send:hover {
@@ -163,10 +234,59 @@
 }
 
 input {
-  width: 70%;
+  width: 80%;
   font-size: medium;
+  @media screen and (max-width: 1366px) {
+    width: 78%;
+    font-size: 15px;
+  }
 }
 textarea {
-  width: 70%;
-  height: 60px;
+  width: 80%;
+  height: 80px;
+  @media screen and (max-width: 1366px) {
+    width: 78%;
+    height: 60px;
+    font-size: 15px;
+  }
+}
+
+#fold {
+  width: 777px;
+
+  @media screen and (max-width: 1366px) {
+    width: 677px;
+  }
+}
+
+#front {
+  width: 777px;
+
+  @media screen and (max-width: 1366px) {
+    width: 677px;
+  }
+}
+
+#sides {
+  width: 777px;
+
+  @media screen and (max-width: 1366px) {
+    width: 677px;
+  }
+}
+
+#closed {
+  width: 777px;
+
+  @media screen and (max-width: 1366px) {
+    width: 677px;
+  }
+}
+
+#seal {
+  width: 777px;
+
+  @media screen and (max-width: 1366px) {
+    width: 677px;
+  }
 }

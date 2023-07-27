@@ -9,7 +9,7 @@ const AboutMe = () => {
 
       <div className="about-me-text">
         <div className="about-me-header"> About Me</div>
-        <p>
+        <div>
           {" "}
           Hi there! I'm Sawara Bhattarai, a passionate{" "}
           <span style={{ color: "#b369ee" }}>Lead UI/UX Designer </span>with a
@@ -26,26 +26,26 @@ const AboutMe = () => {
           , driving innovation by mobilizing our workforce with new web-based
           tools. I thrive on anticipating user needs, executing the UX vision,
           and continuously evolving it over time.
-        </p>
-        <p>
+        </div>
+        <div>
           {" "}
           With experience in Figma, Sketch, and more, I excel in{" "}
           <span style={{ color: "#b369ee" }}>
             wireframing, rapid prototyping, and design research.
           </span>{" "}
           Let's connect on LinkedIn to discuss design and technology.
-        </p>
+        </div>
 
-        <p>
+        <div>
           Reach me at
           <span style={{ color: "#b369ee" }}>
             {" "}
             bhattaraisawara2@gmail.com
           </span>{" "}
           or <span style={{ color: "#b369ee" }}>(626) 321-7662.</span>
-        </p>
+        </div>
 
-        <p> Let's create remarkable experiences together! </p>
+        <div> Let's create remarkable experiences together! </div>
       </div>
     </div>
   );

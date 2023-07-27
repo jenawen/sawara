@@ -24,12 +24,32 @@
   text-decoration: underline;
   letter-spacing: 1px;
   font-family: biorhyme;
+  @media screen and (max-width: 1366px) {
+    font-size: xxx-large;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-family: biorhyme;
+  }
 }
 
 .about-me-text {
+  height: 60vh;
   margin-top: 40px;
-  font-size: large;
+  font-size: x-large;
   width: 45%;
   padding-right: 60px;
   font-family: opensans;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+  @media screen and (max-width: 1366px) {
+    margin-top: 40px;
+    font-size: large;
+    width: 45%;
+    padding-right: 60px;
+    font-family: opensans;
+  }
 }

@@ -99,13 +99,14 @@ const Contact = () => {
         <div className="contact-side">
           <div className="contact-inner-side">
             <div className="contact-text">
-              <div>
+              <div className="contact-inner-text">
                 {" "}
                 <span className="contact-header">Contact</span>
-                <p>Phone : 626-321-7662</p>
+                <div>Phone : 626-321-7662</div>
                 <div>Email: bhattaraisawar15@gmail.com</div>
+                <div>Linkedin</div>
               </div>
-              <div>© 2022 by Sawara Bhattarai </div>
+              <div>© 2023 by Sawara Bhattarai </div>
             </div>
           </div>
         </div>
@@ -116,7 +117,7 @@ const Contact = () => {
               {" "}
               <div className="env-fold">
                 {" "}
-                <img src={envfold} />{" "}
+                <img id={"fold"} src={envfold} />{" "}
               </div>
               <div className={`env-form-${envFrame}`}>
                 <form action={form_ep} onSubmit={handleSubmit} method="POST">
@@ -145,19 +146,19 @@ const Contact = () => {
                 </form>
               </div>
               <div className="env-sides">
-                <img src={envsides} />
+                <img id={"sides"} src={envsides} />
               </div>
               <div className="env-front">
                 {" "}
-                <img src={envfront} />{" "}
+                <img id={"front"} src={envfront} />{" "}
               </div>
             </>
           ) : showEnvelope === "no seal" ? (
             <>
-              <img src={envClosed} />
+              <img id={"closed"} src={envClosed} />
             </>
           ) : showEnvelope === "with seal" ? (
-            <img src={envSeal} />
+            <img id={"seal"} src={envSeal} />
           ) : null}
         </div>
       </div>

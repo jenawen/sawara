@@ -22,7 +22,7 @@ const Header = (props: any) => {
   console.log(isIntro);
 
   return (
-    <div className={`header-container-${isIntro}`}>
+    <div className={`header-container`}>
       <div
         className="header-icon"
         onClick={() => {
