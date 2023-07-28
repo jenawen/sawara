@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(233, 213, 218, 0.21);
   background-color: #242424;
 
   font-synthesis: none;
@@ -37,11 +37,11 @@ h1 {
 }
 
 button {
-  border-radius: 16px;
-  border: 1px solid black;
-  padding: 0.3em 1.2em;
-  font-size: medium;
-  font-weight: 500;
+  border-radius: 34px;
+  border: 2px solid #4c2f63;
+  padding: 0.4em 1.2em;
+  font-size: large;
+  font-weight: 400;
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.25s;

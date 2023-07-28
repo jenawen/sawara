@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import "./index.css";
-import landing from "../../../assets/landing.svg";
+import picture from "../../../assets/My Picture.svg";
 import { useEffect, useState } from "react";
 import "../../../fonts/biorhyme.ttf";
 import "../../../fonts/biorhyme-bold.ttf";
@@ -39,16 +39,23 @@ const Intro = () => {
 
   return (
     <div className="intro-page">
-      <div className="intro-text">
-        <div>Hi, I am Sawara.</div>
-        <div>
-          I{" "}
-          <span className={`${fade.fade}-${order}`}> {introWords[order]}</span>
-        </div>
+      <div className="LEFT">
+        <img id={"sawara-pic"} src={picture} />
       </div>
-      <div className="intro-pic">
-        {" "}
-        <img id={"sawara-intro"} src={landing} />
+
+      <div className="RIGHT">
+        <div>
+          <div className="intro-name"> Sawara Bhattarai</div>
+          <div className="intro-jobdesc">— UI/UX Designer </div>
+        </div>
+        <div className="intro-blurb">
+          {" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dapibus eget
+          turpis fames dignissim tellus dictumst ac magna. Vestibulum erat ac
+          turpis pulvinar diam mattis. Vestibulum ridiculus tellus nam diam hac
+          in ut. Felis elementum arcu pellentesque tincidunt in nunc, ac,
+          sagittis, platea.{" "}
+        </div>
       </div>
     </div>
   );

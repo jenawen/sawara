@@ -3,25 +3,52 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  color: black;
+  background-color: rgba(233, 213, 218, 0.21);
+}
+
+.LEFT {
+  height: 85vh;
+  width: 39%;
+  background-color: rgba(184, 151, 210, 0.6);
+}
+
+.RIGHT {
+  padding: 100px 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   align-items: flex-start;
   align-content: stretch;
-  /* margin-top: 100px; */
-  color: white;
-  background-color: #b897d2;
-  /* width: 100vw; */
-  @media screen and (max-width: 1360px) {
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: stretch;
-    /* margin-top: 100px; */
-    color: white;
-    background-color: #b897d2;
-  }
+}
+
+.intro-name {
+  font-size: 56px;
+  font-weight: 800;
+  font-family: biorhyme;
+  padding-bottom: 15px;
+}
+
+.intro-jobdesc {
+  font-size: xx-large;
+  letter-spacing: 0.8px;
+  color: #827397;
+  font-weight: 600;
+}
+
+.intro-blurb {
+  font-size: x-large;
+  padding: 20px;
+}
+
+#sawara-pic {
+  position: relative;
+  margin-left: 3%;
+  margin-top: 3%;
 }
 .intro-text {
   margin-top: 180px;

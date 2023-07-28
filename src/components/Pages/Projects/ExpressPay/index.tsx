@@ -10,8 +10,12 @@ import ep7 from "../../../../assets/EP/ep7.svg";
 import ep8 from "../../../../assets/EP/ep8.svg";
 import ep9 from "../../../../assets/EP/ep9.svg";
 import ep10 from "../../../../assets/EP/ep10.svg";
+import { useEffect } from "react";
 
 const ExpressPay = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="project-header">Express Pay</div>

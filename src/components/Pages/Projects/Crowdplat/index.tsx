@@ -9,8 +9,12 @@ import cp7 from "../../../../assets/CP/cp7.svg";
 import cp8 from "../../../../assets/CP/cp8.svg";
 import cp9 from "../../../../assets/CP/cp9.svg";
 import cp10 from "../../../../assets/CP/cp10.svg";
+import { useEffect } from "react";
 
 const Crowdplat = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="project-header">Crowdplat</div>

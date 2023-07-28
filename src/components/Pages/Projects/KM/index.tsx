@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-irregular-whitespace */
+import { useEffect } from "react";
 import km1 from "../../../../assets/KM/km1.svg";
 import km2 from "../../../../assets/KM/km2.svg";
 import km3 from "../../../../assets/KM/km3.svg";
@@ -9,6 +10,9 @@ import km6 from "../../../../assets/KM/km6.svg";
 import km7 from "../../../../assets/KM/km7.svg";
 
 const KM = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="project-header">Knowledge Home</div>

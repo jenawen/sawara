@@ -1,6 +1,6 @@
 .contact-page {
   height: 100vh;
-  background-color: #faf0fc;
+  background-color: #827397;
   color: white;
   display: flex;
   flex-direction: row;
@@ -18,16 +18,9 @@
   /* opacity: 40%; */
   overflow-y: hidden;
 }
-.contact-inner-side {
-  height: 100%;
-  width: 88%;
-  margin-top: 50px;
-  background-color: #b897d2;
-  /* padding: 20px; */
-}
 
 .contact-text {
-  padding: 35px;
+  padding: 65px;
   font-size: x-large;
   display: flex;
   flex-direction: column;

@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
 const Header = (props: any) => {
-  const { setPage, page, setProject } = props;
+  const { setPage, page, setProject, setCurrent } = props;
   const [isIntro, setIsIntro] = useState(true);
 
   useEffect(() => {
@@ -27,6 +27,7 @@ const Header = (props: any) => {
         className="header-icon"
         onClick={() => {
           setPage("intro");
+          setCurrent(1);
         }}
       >
         <img src={sb} />
@@ -36,6 +37,7 @@ const Header = (props: any) => {
           onClick={() => {
             setPage("projects");
             setProject("none");
+            setCurrent(2);
           }}
           className="link-1"
         >
@@ -45,11 +47,22 @@ const Header = (props: any) => {
         <span
           onClick={() => {
             setPage("about");
+            setCurrent(3);
           }}
           className="link-2"
         >
           {" "}
           About Me
+        </span>
+        <span
+          onClick={() => {
+            setPage("contact");
+            setCurrent(4);
+          }}
+          className="link-4"
+        >
+          {" "}
+          Contact
         </span>
         <a
           href={resume}
@@ -63,15 +76,6 @@ const Header = (props: any) => {
           Resume
           <img style={{ width: "20px", marginLeft: "5px" }} src={dl} />
         </a>
-        <span
-          onClick={() => {
-            setPage("contact");
-          }}
-          className="link-4"
-        >
-          {" "}
-          Contact
-        </span>
       </div>
     </div>
   );

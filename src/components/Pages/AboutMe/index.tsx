@@ -1,5 +1,5 @@
 import "./index.css";
-import aboutme from "../../../assets/aboutme.svg";
+import aboutme from "../../../assets/My Picture  2.svg";
 const AboutMe = () => {
   return (
     <div className="about-me-page">

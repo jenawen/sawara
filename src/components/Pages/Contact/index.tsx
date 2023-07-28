@@ -98,27 +98,25 @@ const Contact = () => {
     <>
       <div className="contact-page">
         <div className="contact-side">
-          <div className="contact-inner-side">
-            <div className="contact-text">
-              <div className="contact-inner-text">
-                {" "}
-                <span className="contact-header">Contact</span>
-                <div>Phone : 626-321-7662</div>
-                <div>Email: bhattaraisawar15@gmail.com</div>
-                <div
-                  className="li-link"
-                  onClick={() => {
-                    window.open(
-                      "https://www.linkedin.com/in/sawara-bhattarai.com/",
-                      "_blank"
-                    );
-                  }}
-                >
-                  Linkedin
-                </div>
+          <div className="contact-text">
+            <div className="contact-inner-text">
+              {" "}
+              <span className="contact-header">Contact</span>
+              <div>Phone : 626-321-7662</div>
+              <div>Email: bhattaraisawara2@gmail.com</div>
+              <div
+                className="li-link"
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/sawara-bhattarai.com/",
+                    "_blank"
+                  );
+                }}
+              >
+                Linkedin
               </div>
-              <div>© 2023 by Sawara Bhattarai </div>
             </div>
+            <div>© 2023 by Sawara Bhattarai </div>
           </div>
         </div>
         <div className={`contact-envelope`}>
