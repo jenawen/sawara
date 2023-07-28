@@ -17,6 +17,8 @@
 }
 
 .RIGHT {
+  margin-top: -50px;
+
   padding: 100px 70px;
   display: flex;
   flex-direction: column;
@@ -24,6 +26,10 @@
   justify-content: space-evenly;
   align-items: flex-start;
   align-content: stretch;
+  @media screen and (max-width: 1360px) {
+    padding: 100px 80px;
+    margin-top: -30px;
+  }
 }
 
 .intro-name {
@@ -36,19 +42,32 @@
 .intro-jobdesc {
   font-size: xx-large;
   letter-spacing: 0.8px;
-  color: #827397;
+  color: #605175;
   font-weight: 600;
+  font-family: opensans;
+  @media screen and (max-width: 1360px) {
+    font-size: x-large;
+  }
 }
 
 .intro-blurb {
-  font-size: x-large;
-  padding: 20px;
+  font-size: 26px;
+
+  font-family: opensans;
+  margin-top: -140px;
+  @media screen and (max-width: 1360px) {
+    font-size: large;
+    margin-top: -30px;
+  }
 }
 
 #sawara-pic {
   position: relative;
   margin-left: 3%;
   margin-top: 3%;
+  @media screen and (max-width: 1360px) {
+    width: 515px;
+  }
 }
 .intro-text {
   margin-top: 180px;

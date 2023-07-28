@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
 import sb from "../../assets/sb.svg";
-import dl from "../../assets/dl.svg";
+import dl from "../../assets/dl-blk.svg";
 import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
@@ -27,6 +27,8 @@ const Header = (props: any) => {
         className="header-icon"
         onClick={() => {
           setPage("intro");
+          setProject("none");
+
           setCurrent(1);
         }}
       >
@@ -47,6 +49,8 @@ const Header = (props: any) => {
         <span
           onClick={() => {
             setPage("about");
+            setProject("none");
+
             setCurrent(3);
           }}
           className="link-2"
@@ -57,6 +61,8 @@ const Header = (props: any) => {
         <span
           onClick={() => {
             setPage("contact");
+            setProject("none");
+
             setCurrent(4);
           }}
           className="link-4"
@@ -69,12 +75,17 @@ const Header = (props: any) => {
           download="sawara_bhattarai_resume"
           target="_blank"
           rel="noreferrer"
-          style={{ color: "white", fontWeight: "460" }}
           className="resume-link"
         >
           {" "}
           Resume
-          <img style={{ width: "20px", marginLeft: "5px" }} src={dl} />
+          <img
+            style={{
+              width: "20px",
+              marginLeft: "5px",
+            }}
+            src={dl}
+          />
         </a>
       </div>
     </div>

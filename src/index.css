@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -45,10 +46,12 @@ button {
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.25s;
-  background-color: transparent;
+  background-color: #605175;
+  color: white;
 }
 button:hover {
   border-color: black;
+  background-color: white;
 }
 button:focus,
 button:focus-visible {
@@ -66,7 +69,8 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: transparent;
+    background-color: #605175;
+    color: white;
   }
 }
 

@@ -37,15 +37,6 @@ const AboutMe = () => {
           Let's connect on LinkedIn to discuss design and technology.
         </div>
 
-        <div>
-          Reach me at
-          <span style={{ color: "#b369ee" }}>
-            {" "}
-            bhattaraisawara2@gmail.com
-          </span>{" "}
-          or <span style={{ color: "#b369ee" }}>(626) 321-7662.</span>
-        </div>
-
         <div> Let's create remarkable experiences together! </div>
       </div>
     </div>

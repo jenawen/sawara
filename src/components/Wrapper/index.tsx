@@ -26,15 +26,32 @@ const Wrapper = () => {
     }
   }, [current]);
 
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  const isSticky = () => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+      ? header?.classList.add("is-sticky")
+      : header?.classList.remove("is-sticky");
+  };
+
   return (
     <div className="parent-wrapper">
-      <Header
-        setPage={setPage}
-        page={page}
-        project={project}
-        setProject={setProject}
-        setCurrent={setCurrent}
-      />
+      <div className="header-section d-none d-xl-block">
+        <Header
+          setPage={setPage}
+          page={page}
+          project={project}
+          setProject={setProject}
+          setCurrent={setCurrent}
+        />
+      </div>
 
       {project === "Express Pay" ? (
         <ExpressPay />

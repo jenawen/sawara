@@ -20,7 +20,7 @@ const Projects = (props: any) => {
       projectTitle: "Knowledge Management",
       projectImg: kmlaptop,
       projectDesc:
-        "Knowledge Home started as part of Universal CRM. While designing other applications and from conversations with our agents during that time I realized that the current way of accessing information left a lot to be desired. At that point of time you had to log in to a system and type out what word document you were looking for and read through the whole thing to find a small snippet of information. The layout of the information was not organized. As our system and company was growing I realized this would be a massive bottleneck for us.",
+        "Designed a responsive web application for Credit One Bank's customer service department. Agents can access files and collaborate effectively, ensuring exceptional customer support.",
       projectIcon: c1blogo,
       projectTemplate: "1",
     },
@@ -28,7 +28,7 @@ const Projects = (props: any) => {
       projectTitle: "Express Pay",
       projectImg: eplaptop,
       projectDesc:
-        "The goal of the project is to redesign the current Express Pay application used by Credit One Bank. The current application is outdated and requires agents to navigate through multiple applications to solve customer problems, resulting in increased call times and SLAs. The project aims to create a customer-based application that uses omni-channel and offers a 360-degree customer experience. ",
+        "Web Application for Credit One Bank's Express Pay, replacing the outdated system with a customer-centric, omni-channel platform. The result: faster issue resolution, shorter call times, and an enhanced 360-degree customer experience.",
       projectIcon: c1blogo,
       projectTemplate: "2",
     },
@@ -37,7 +37,7 @@ const Projects = (props: any) => {
       projectTitle: "Crowdplat",
       projectImg: cplaptop,
       projectDesc:
-        "Crowdplat is a crowdsourcing company that builds software applications or data science algorithms, runs crowdsourcing challenges, hires contingent or full time staff, and more. The goal of this project was to redesign the website for the company, improving its usability and visual appeal to increase user engagement and drive more business. The previous website had several usability issues that resulted in a high bounce rate and low engagement. I conducted user research to identify pain points and design opportunities, and created wireframes and prototypes to test and refine the design.",
+        "Redesigned Crowdplat's website to enhance user engagement. Addressed usability issues through user research, wireframes, and prototypes.",
       projectIcon: cplogo,
       projectTemplate: "1",
     },

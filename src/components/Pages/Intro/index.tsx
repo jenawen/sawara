@@ -29,15 +29,15 @@ const Intro = () => {
       <div className="RIGHT">
         <div>
           <div className="intro-name"> Sawara Bhattarai</div>
-          <div className="intro-jobdesc">— UI/UX Designer </div>
+          <div className="intro-jobdesc">
+            Product Designer | Crafting Engaging Experiences{" "}
+          </div>
         </div>
         <div className="intro-blurb">
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dapibus eget
-          turpis fames dignissim tellus dictumst ac magna. Vestibulum erat ac
-          turpis pulvinar diam mattis. Vestibulum ridiculus tellus nam diam hac
-          in ut. Felis elementum arcu pellentesque tincidunt in nunc, ac,
-          sagittis, platea.{" "}
+          A user experience designer who dabbles in design systems, CRM
+          Dashboards, marketing strategy and creating engaging, immersive, and
+          human-centered design solutions.
         </div>
       </div>
     </div>

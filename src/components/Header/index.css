@@ -10,10 +10,9 @@
   height: 5.2vh;
   background-color: aliceblue;
   overflow-x: hidden;
-  border-bottom: 3px solid white;
+
   background-color: #b897d2;
 
-  color: white;
   overflow: hidden;
 }
 
@@ -41,12 +40,11 @@
   margin-top: -10px;
   margin-left: 15px;
   padding: 0px;
-  filter: invert(93%) sepia(94%) saturate(31%) hue-rotate(95deg)
-    brightness(108%) contrast(100%);
 }
 .header-icon:hover {
-  filter: invert(67%) sepia(8%) saturate(2101%) hue-rotate(298deg)
-    brightness(104%) contrast(100%);
+  filter: invert(92%) sepia(10%) saturate(363%) hue-rotate(299deg)
+    brightness(97%) contrast(88%);
+  cursor: pointer;
 }
 
 .header-links {
@@ -59,6 +57,8 @@
   width: 65%;
   margin-top: 5px;
   font-size: 22px;
+  color: black;
+
   @media screen and (max-width: 1366px) {
     display: flex;
     flex-direction: row;
@@ -75,18 +75,22 @@
 .link-1:hover {
   text-decoration: underline;
   color: #e9d5da;
+  cursor: pointer;
 }
 .link-2:hover {
   text-decoration: underline;
   color: #e9d5da;
+  cursor: pointer;
 }
 .link-3:hover {
   text-decoration: underline;
   color: #e9d5da;
+  cursor: pointer;
 }
 .link-4:hover {
   text-decoration: underline;
   color: #e9d5da;
+  cursor: pointer;
 }
 
 .resume-link {
@@ -96,6 +100,8 @@
   justify-content: center;
   align-items: center;
   align-content: stretch;
+  color: black;
+  font-weight: 400;
 }
 .resume-link:hover {
   text-decoration: underline;

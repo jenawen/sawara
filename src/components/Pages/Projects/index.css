@@ -106,10 +106,10 @@
 }
 
 .e-description {
-  margin-top: 5%;
+  margin-top: 9%;
   width: 40%;
-  height: 60%;
-  border: 4px solid #827397;
+  height: 45%;
+  border: 4px solid #605175;
   background-color: white;
   border-radius: 8px;
   font-size: x-large;
@@ -120,12 +120,20 @@
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
+  font-family: opensans;
+
+  @media screen and (max-width: 1360px) {
+    font-size: large;
+  }
 }
 
 .e-title {
   font-size: xxx-large;
   font-family: biorhyme;
-  color: #827397;
+  color: #605175;
+  @media screen and (max-width: 1360px) {
+    font-size: xx-large;
+  }
 }
 
 .e-photo {
@@ -139,19 +147,60 @@
   justify-content: space-evenly;
   align-items: center;
   align-content: stretch;
+  transition: all 0.3s ease;
+}
+
+.e-photo:hover {
+  /* -webkit-animation: bounce 1.2s ease; */
+  animation: bounce 1.2s ease;
+  /* -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: 1.2; */
+  /* transform: scale(1.2); */
+}
+
+@keyframes bounce {
+  0% {
+    /* -webkit-transform: translateY(0px); */
+    transform: translateY(0);
+  }
+  /* 30% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
+  65% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  80% {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  } */
+  100% {
+    /* -webkit-transform: translateY(-20px); */
+    transform: translateY(-20px);
+  }
 }
 
 #project-button {
   width: 40%;
+  background-color: #605175;
+  color: white;
 }
 #project-button:hover {
   width: 40%;
-  color: white;
-  background-color: #827397;
+  color: black;
+  background-color: white;
 }
 
 #proj-photo {
   width: 720px;
+  @media screen and (max-width: 1360px) {
+    width: 500px;
+  }
 }
 
 .project-page {
@@ -270,7 +319,7 @@
 }
 .thanks {
   padding: 24px 45px;
-  background-color: #363062;
+  background-color: #b897d2;
   color: white;
   width: 100%;
 }

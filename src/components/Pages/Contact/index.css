@@ -1,6 +1,6 @@
 .contact-page {
   height: 100vh;
-  background-color: #827397;
+  background-color: #605175;
   color: white;
   display: flex;
   flex-direction: row;
@@ -9,13 +9,19 @@
   align-items: stretch;
   align-content: stretch;
   overflow-y: hidden;
+  font-family: opensans;
+
+  @media screen and (max-width: 1366px) {
+    height: 120vh;
+  }
 }
 
 .contact-side {
   width: 35%;
   /* height: 100vh; */
-  background-color: #827397;
+  background-color: #605175;
   /* opacity: 40%; */
+  margin-top: 80px;
   overflow-y: hidden;
 }
 
@@ -81,7 +87,7 @@
   /* animation: fade-out 2.5s ease-out infinite alternate; */
   @media screen and (max-width: 1366px) {
     width: 65%;
-    margin-top: 18%;
+    margin-top: 28%;
   }
 }
 
@@ -105,7 +111,7 @@
   border-radius: 8px;
   /* animation-delay: 2.5s; */
   @media screen and (max-width: 1366px) {
-    width: 490px;
+    width: 480px;
     height: 500px;
     margin-bottom: 380px;
   }
@@ -120,7 +126,7 @@
   border-radius: 8px;
   /* animation-delay: 2.5s; */
   @media screen and (max-width: 1366px) {
-    width: 490px;
+    width: 480px;
     height: 500px;
     margin-bottom: 250px;
   }
@@ -135,7 +141,7 @@
   border-radius: 8px;
   animation-delay: 2.5s;
   @media screen and (max-width: 1366px) {
-    width: 490px;
+    width: 480px;
     height: 420px;
     margin-bottom: 150px;
   }
@@ -150,7 +156,7 @@
   border-radius: 8px;
   /* animation-delay: 2.5s; */
   @media screen and (max-width: 1366px) {
-    width: 490px;
+    width: 480px;
     height: 300px;
     margin-bottom: 50px;
   }
@@ -169,12 +175,18 @@
   position: absolute;
   z-index: -2;
   /* margin-top: 120px; */
+  @media screen and (max-width: 1366px) {
+    margin-top: -20px;
+  }
 }
 
 .env-front {
   position: absolute;
   z-index: -1;
   margin-top: 120px;
+  @media screen and (max-width: 1366px) {
+    margin-top: 80px;
+  }
 }
 
 .inputs {
@@ -196,9 +208,9 @@
   border: 1px solid black;
   border-radius: 16px;
   font-size: 16px;
-  color: black;
+  background-color: #605175;
+  color: white;
   font-family: opensans;
-  background-color: white;
   position: absolute;
   z-index: 8;
   top: 290px;
@@ -223,7 +235,7 @@
     position: absolute;
     z-index: 8;
     top: 260px;
-    left: 220px;
+    left: 210px;
     /* need media query lol */
     margin: auto;
     display: flex;
@@ -237,8 +249,8 @@
 }
 
 .send:hover {
-  background-color: #363062;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .li-link:hover {
@@ -249,6 +261,8 @@
 input {
   width: 80%;
   font-size: medium;
+  color: black;
+  padding: 2px;
   @media screen and (max-width: 1366px) {
     width: 78%;
     font-size: 15px;
@@ -257,6 +271,8 @@ input {
 textarea {
   width: 80%;
   height: 80px;
+  color: black;
+  font-family: opensans;
   @media screen and (max-width: 1366px) {
     width: 78%;
     height: 60px;
@@ -264,11 +280,15 @@ textarea {
   }
 }
 
+input::placeholder-shown {
+  color: black;
+}
+
 #fold {
   width: 777px;
 
   @media screen and (max-width: 1366px) {
-    width: 677px;
+    width: 645px;
   }
 }
 
@@ -276,15 +296,16 @@ textarea {
   width: 777px;
 
   @media screen and (max-width: 1366px) {
-    width: 677px;
+    width: 645px;
   }
 }
 
 #sides {
-  width: 777px;
-
+  width: 1055px;
+  margin-right: 34px;
   @media screen and (max-width: 1366px) {
-    width: 677px;
+    width: 890px;
+    margin-left: 5px;
   }
 }
 
