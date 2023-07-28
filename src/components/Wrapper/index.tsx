@@ -4,7 +4,7 @@ import Intro from "../Pages/Intro";
 import "./index.css";
 import AboutMe from "../Pages/AboutMe";
 import Projects from "../Pages/Projects";
-import Resume from "../Pages/Resume";
+// import Resume from "../Pages/Resume";
 import Contact from "../Pages/Contact";
 import ExpressPay from "../Pages/Projects/ExpressPay";
 import KM from "../Pages/Projects/KM";
