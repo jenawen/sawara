@@ -80,6 +80,7 @@ const Header = (props: any) => {
           {" "}
           Resume
           <img
+            id="dl"
             style={{
               width: "20px",
               marginLeft: "5px",

@@ -108,7 +108,7 @@ const Contact = () => {
                 className="li-link"
                 onClick={() => {
                   window.open(
-                    "https://www.linkedin.com/in/sawara-bhattarai.com/",
+                    "https://www.linkedin.com/in/sawara-bhattarai/",
                     "_blank"
                   );
                 }}

@@ -107,3 +107,8 @@
   text-decoration: underline;
   color: #e9d5da;
 }
+
+#dl:hover {
+  filter: invert(93%) sepia(4%) saturate(670%) hue-rotate(297deg)
+    brightness(93%) contrast(95%);
+}
