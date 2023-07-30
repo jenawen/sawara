@@ -87,7 +87,7 @@
   /* animation: fade-out 2.5s ease-out infinite alternate; */
   @media screen and (max-width: 1366px) {
     width: 65%;
-    margin-top: 28%;
+    margin-top: 20%;
   }
 }
 
@@ -298,8 +298,8 @@ input::placeholder-shown {
   width: 777px;
   /* margin-right: 34px; */
   @media screen and (max-width: 1366px) {
-    width: 890px;
-    margin-left: 5px;
+    width: 645px;
+    /* margin-left: 5px; */
   }
 }
 

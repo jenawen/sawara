@@ -33,7 +33,7 @@
 }
 
 .intro-name {
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 800;
   font-family: biorhyme;
   padding-bottom: 15px;
@@ -66,7 +66,7 @@
   margin-left: 3%;
   margin-top: 3%;
   @media screen and (max-width: 1360px) {
-    width: 515px;
+    width: 565px;
   }
 }
 .intro-text {
@@ -97,51 +97,4 @@
   @media screen and (max-width: 1366px) {
     width: 605px;
   }
-}
-
-.fade-in-0 {
-  transition: opacity 0.8s ease;
-  color: #d6a243;
-}
-.fade-in-1 {
-  transition: opacity 0.8s ease;
-  color: #ff9ab3;
-}
-.fade-in-2 {
-  transition: opacity 0.8s ease;
-  color: #68cc58;
-}
-.fade-in-3 {
-  transition: opacity 0.8s ease;
-  color: #fec203;
-}
-.fade-in-4 {
-  transition: opacity 0.8s ease;
-  color: #c9f3e8;
-}
-
-.fade-out-0 {
-  opacity: 0;
-  transition: opacity 0.7s ease;
-  color: #d6a243;
-}
-.fade-out-1 {
-  opacity: 0;
-  transition: opacity 0.7s ease;
-  color: #ff9ab3;
-}
-.fade-out-2 {
-  opacity: 0;
-  transition: opacity 0.7s ease;
-  color: #68cc58;
-}
-.fade-out-3 {
-  opacity: 0;
-  transition: opacity 0.7s ease;
-  color: #fec203;
-}
-.fade-out-4 {
-  opacity: 0;
-  transition: opacity 0.7s ease;
-  color: #c9f3e8;
 }
