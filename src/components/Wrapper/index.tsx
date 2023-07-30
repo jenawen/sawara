@@ -41,6 +41,10 @@ const Wrapper = () => {
       : header?.classList.remove("is-sticky");
   };
 
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className="parent-wrapper">
       <div className="header-section d-none d-xl-block">
