@@ -13,6 +13,7 @@
 
   @media screen and (max-width: 1366px) {
     height: 120vh;
+    padding-top: 30px;
   }
 }
 
