@@ -9,6 +9,8 @@ import Contact from "../Pages/Contact";
 import ExpressPay from "../Pages/Projects/ExpressPay";
 import KM from "../Pages/Projects/KM";
 import Crowdplat from "../Pages/Projects/Crowdplat";
+import "../../fonts/Merriweather-Regular.ttf";
+import "../../fonts/Merriweather-Bold.ttf";
 
 const Wrapper = () => {
   const [page, setPage] = useState("intro");

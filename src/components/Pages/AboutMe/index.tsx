@@ -1,5 +1,7 @@
 import "./index.css";
 import aboutme from "../../../assets/My Picture  2.svg";
+import "../../../fonts/Merriweather-Regular.ttf";
+
 const AboutMe = () => {
   return (
     <div className="about-me-page">

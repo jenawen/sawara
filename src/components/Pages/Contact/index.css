@@ -36,6 +36,8 @@
   align-items: flex-start;
   align-content: stretch;
   height: 85vh;
+  font-family: Merriweather;
+
   @media screen and (max-width: 1366px) {
     padding: 35px;
     font-size: 20px;
@@ -57,11 +59,11 @@
   align-items: stretch;
   align-content: stretch;
   height: 30vh;
+  font-family: Merriweather;
 }
 
 .contact-header {
   font-size: xxx-large;
-  font-family: biorhyme;
 }
 
 @keyframes fade-out {
@@ -167,7 +169,7 @@
   color: black;
   font-size: xx-large;
   padding-bottom: 50px;
-  font-family: biorhyme;
+
   position: absolute;
   top: 10px;
 }
@@ -200,7 +202,8 @@
   align-content: center;
   color: black;
   padding: 5px;
-  font-family: opensans;
+  font-family: Merriweather;
+
   /* position: absolute;
   z-index: 6; */
 }
@@ -219,18 +222,19 @@
   align-items: center;
   align-content: stretch;
   padding: 3px 10px;
+  font-family: Merriweather;
 
   @media screen and (max-width: 1366px) {
     border: 1px solid black;
     border-radius: 16px;
     font-size: 16px;
     color: black;
-    font-family: opensans;
+
     background-color: white;
     position: absolute;
     z-index: 8;
     top: 260px;
-    left: 210px;
+    left: 205px;
     /* need media query lol */
     margin: auto;
     display: flex;
@@ -243,10 +247,10 @@
   }
 }
 
-.send:hover {
+/* .send:hover {
   background-color: white;
   color: black;
-}
+} */
 
 .li-link:hover {
   text-decoration: underline;
@@ -258,6 +262,8 @@ input {
   font-size: medium;
   color: black;
   padding: 2px;
+  font-family: Merriweather;
+
   @media screen and (max-width: 1366px) {
     width: 78%;
     font-size: 15px;
@@ -267,7 +273,8 @@ textarea {
   width: 80%;
   height: 80px;
   color: black;
-  font-family: opensans;
+  font-family: Merriweather;
+
   @media screen and (max-width: 1366px) {
     width: 78%;
     height: 60px;
@@ -277,6 +284,7 @@ textarea {
 
 input::placeholder-shown {
   color: black;
+  font-family: Merriweather;
 }
 
 #fold {

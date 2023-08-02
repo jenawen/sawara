@@ -2,9 +2,6 @@
 import "./index.css";
 import picture from "../../../assets/My Picture.svg";
 // import { useEffect, useState } from "react";
-import "../../../fonts/biorhyme.ttf";
-import "../../../fonts/biorhyme-bold.ttf";
-import "../../../fonts/opensans.ttf";
 
 const Intro = () => {
   //   const fading = 1750;

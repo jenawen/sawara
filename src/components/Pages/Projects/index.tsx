@@ -11,6 +11,7 @@ import c1blogo from "../../../assets/c1blogo.svg";
 import kmlaptop from "../../../assets/km-laptop.svg";
 import eplaptop from "../../../assets/ep-laptop.svg";
 import cplaptop from "../../../assets/cp-laptop.svg";
+import "../../../fonts/Merriweather-Regular.ttf";
 
 const Projects = (props: any) => {
   const { project, setProject } = props;
@@ -64,7 +65,9 @@ const Projects = (props: any) => {
                     {" "}
                     <div className="e-description">
                       <div className="e-title">{e.projectTitle}</div>
-                      <div>{e.projectDesc}</div>
+                      <div style={{ fontFamily: "Merriweather" }}>
+                        {e.projectDesc}
+                      </div>
                       <button
                         onClick={() => {
                           setProject(e.projectTitle);

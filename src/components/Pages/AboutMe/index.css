@@ -22,7 +22,7 @@
   margin-top: 20px;
   filter: drop-shadow(-60px -30px 0px rgba(130, 115, 151, 0.6));
   width: 475px;
-  @media screen and (max-width: 1360px) {
+  @media screen and (max-width: 1366px) {
     margin-left: 50px;
     margin-top: 50px;
   }
@@ -30,7 +30,7 @@
 
 #sawara-abt {
   width: 500px;
-  @media screen and (max-width: 1360px) {
+  @media screen and (max-width: 1366px) {
     width: 450px;
   }
 }
@@ -39,14 +39,12 @@
   font-size: xxx-large;
   text-decoration: underline;
   letter-spacing: 1px;
-  font-family: biorhyme;
   color: #605175;
+  font-family: Merriweather;
 
   @media screen and (max-width: 1366px) {
     font-size: xxx-large;
-
     letter-spacing: 1px;
-    font-family: biorhyme;
   }
 }
 
@@ -57,7 +55,8 @@
   font-size: x-large;
   width: 45%;
   padding-right: 60px;
-  font-family: opensans;
+  font-family: Merriweather;
+
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

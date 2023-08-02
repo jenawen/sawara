@@ -34,7 +34,6 @@
 .projects-page-title {
   margin-top: 30px;
   font-size: xx-large;
-  font-family: biorhyme;
 }
 
 .each-project {
@@ -58,7 +57,6 @@
 }
 
 .e-projectTitle {
-  font-family: biorhyme;
   font-size: 26px;
   padding-top: 35px;
 }
@@ -108,7 +106,7 @@
 
 .project-header {
   font-size: xxx-large;
-  font-family: biorhyme;
+
   color: #4c2f63;
   padding-top: 26px;
   text-align: center;
@@ -116,17 +114,17 @@
 
 .section-header {
   font-size: 35px;
-  font-family: biorhyme;
+
   color: #4c2f63;
 }
 .section-header-alt {
   font-size: 35px;
-  font-family: biorhyme;
+
   /* color: #4c2f63; */
 }
 .project-desc {
   font-size: large;
-  font-family: opensans;
+
   font-weight: 600;
   padding-bottom: 26px;
   text-align: center;

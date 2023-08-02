@@ -18,9 +18,6 @@ const Header = (props: any) => {
     } else setIsIntro(false);
   }, [page]);
 
-  console.log(page);
-  console.log(isIntro);
-
   return (
     <div className={`header-container`}>
       <div

@@ -75,16 +75,12 @@ button:focus-visible {
 }
 
 @font-face {
-  font-family: "biorhyme"; /*Can be any text*/
-  src: local("biorhyme"), url("./fonts/biorhyme.ttf") format("truetype");
+  font-family: "Merriweather"; /*Can be any text*/
+  src: local("Merriweather-Regular"),
+    url("./fonts/Merriweather-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "biorhyme-bold"; /*Can be any text*/
-  src: local("biorhyme-bold"),
-    url("./fonts/biorhyme-bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "opensans"; /*Can be any text*/
-  src: local("opensans"), url("./fonts/opensans.ttf") format("truetype");
+  font-family: "Merriweather-bold"; /*Can be any text*/
+  src: local("Merriweather-Bold"),
+    url("./fonts/Merriweather-Bold.ttf") format("truetype");
 }
