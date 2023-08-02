@@ -11,13 +11,11 @@ import envClosed from "../../../assets/closeEnv.svg";
 import envSeal from "../../../assets/closeEnvSeal.svg";
 import { useEffect, useState } from "react";
 
-//!NEED MEDIA QUERIES FOR LARGER SCREENS
 const Contact = () => {
   const [envFrame, setEnvFrame] = useState("0");
   const [submitted, setSubmitted] = useState(false);
   const [moveFrame, setMoveFrame] = useState(false);
   const [showEnvelope, setShowEnvelope] = useState("none");
-
   const [sent, setSent] = useState("");
 
   const form_ep =
