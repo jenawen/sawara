@@ -10,7 +10,8 @@ import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
 const Header = (props: any) => {
   const { setPage, page, setProject, setCurrent } = props;
-  const [isIntro, setIsIntro] = useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [, setIsIntro] = useState(true);
 
   useEffect(() => {
     if (page === "intro") {
