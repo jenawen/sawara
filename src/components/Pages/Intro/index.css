@@ -27,7 +27,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
   align-content: stretch;
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1440px) {
     padding: 100px 80px;
     margin-top: -30px;
   }
@@ -48,7 +48,7 @@
   font-weight: 600;
   font-family: Merriweather-bold;
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1440px) {
     font-size: 22px;
   }
 }
@@ -57,7 +57,7 @@
   font-size: 26px;
 
   margin-top: -140px;
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1440px) {
     font-size: large;
     margin-top: -30px;
   }
@@ -67,16 +67,21 @@
   position: relative;
   margin-left: 3%;
   margin-top: 5%;
-  @media screen and (max-width: 1366px) {
+
+  @media screen and (max-width: 1440px) {
+    max-width: 530px;
     width: 530px;
   }
+  /* @media screen and (max-width: 1440px) {
+    width: 610px;
+  } */
 }
 .intro-text {
   margin-top: 180px;
   margin-left: 300px;
   font-size: 58px;
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1440px) {
     margin-top: 180px;
     margin-left: 140px;
     font-size: xxx-large;
@@ -87,15 +92,8 @@
   margin-top: -120px;
   margin-right: 210px;
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1440px) {
     margin-top: -100px;
     margin-right: 0px;
-  }
-}
-
-#sawara-intro {
-  width: 730px;
-  @media screen and (max-width: 1366px) {
-    width: 605px;
   }
 }

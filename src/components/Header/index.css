@@ -59,7 +59,7 @@
   font-size: 22px;
   color: black;
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1400px) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

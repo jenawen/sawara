@@ -124,7 +124,7 @@
   align-content: stretch;
   font-family: opensans;
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1400px) {
     font-size: large;
   }
 }
@@ -134,7 +134,7 @@
   font-family: Merriweather;
 
   color: #605175;
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1400px) {
     font-size: xx-large;
   }
 }
@@ -171,8 +171,11 @@
 
 #proj-photo {
   width: 720px;
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1400px) {
     width: 500px;
+  }
+  @media screen and (max-width: 1440px) {
+    width: 610px;
   }
 }
 
@@ -326,7 +329,7 @@ li {
 #project-photo {
   height: 250px;
   box-shadow: 4px 3px 8px gray;
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1400px) {
     height: 180px;
     box-shadow: 4px 3px 8px gray;
   }
