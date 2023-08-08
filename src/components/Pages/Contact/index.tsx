@@ -22,36 +22,38 @@ const Contact = () => {
     " https://public.herotofu.com/v1/00856650-266c-11ee-8058-515da3888232";
 
   const handleSubmit = (e: any) => {
-    e.preventDefault();
+    // e.preventDefault();
+    setEnvFrame("1");
+    setSubmitted(true);
 
-    const inputs = e.target.elements;
-    const data: any = {};
+    // const inputs = e.target.elements;
+    // const data: any = {};
 
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i].name) {
-        data[inputs[i].name] = inputs[i].value;
-      }
-    }
+    // for (let i = 0; i < inputs.length; i++) {
+    //   if (inputs[i].name) {
+    //     data[inputs[i].name] = inputs[i].value;
+    //   }
+    // }
 
-    fetch(form_ep, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Form response was not ok");
-        }
-        setEnvFrame("1");
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        e.target.submit();
-        console.warn(err);
-      });
+    // fetch(form_ep, {
+    //   method: "POST",
+    //   headers: {
+    //     Accept: "application/json",
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(data),
+    // })
+    //   .then((response) => {
+    //     if (!response.ok) {
+    //       throw new Error("Form response was not ok");
+    //     }
+    //     setEnvFrame("1");
+    //     setSubmitted(true);
+    //   })
+    //   .catch((err) => {
+    //     e.target.submit();
+    //     console.warn(err);
+    //   });
   };
 
   useEffect(() => {
@@ -127,7 +129,7 @@ const Contact = () => {
                 <img id={"fold"} src={envfold} />{" "}
               </div>
               <div className={`env-form-${envFrame}`}>
-                <form action={form_ep} onSubmit={handleSubmit} method="POST">
+                <form onSubmit={handleSubmit}>
                   <div className="inputs">
                     Name
                     <input

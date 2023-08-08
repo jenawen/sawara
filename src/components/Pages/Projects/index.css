@@ -34,6 +34,11 @@
   padding: 30px 30px 0px 30px;
   height: 90vh;
   font-family: Merriweather;
+  @media screen and (max-width: 480px) {
+    padding: 0px 0px 0px 0px;
+  align-content: center;
+
+  }
 }
 
 .e-backing {
@@ -51,6 +56,13 @@
   height: 97%;
   margin-left: 10%;
   background: #fefbfe;
+  @media screen and (max-width: 480px) {
+    height: 85%;
+  margin-left: 0%;
+  width: 85%;
+
+
+  }
 }
 .e-backing-1 {
   position: relative;
@@ -59,6 +71,13 @@
   height: 97%;
   margin-right: 10%;
   background: #fefbfe;
+  @media screen and (max-width: 480px) {
+    height: 85%;
+  margin-right: 0%;
+  width: 85%;
+
+
+  }
 }
 .e-backing-2 {
   position: relative;
@@ -67,6 +86,13 @@
   height: 97%;
   margin-left: 10%;
   background: #fefbfe;
+  @media screen and (max-width: 480px) {
+    height: 88%;
+  margin-left: 0%;
+  width: 85%;
+
+
+  }
 }
 
 .e-main-info-0 {
@@ -81,6 +107,13 @@
   align-items: stretch;
   align-content: stretch;
   font-family: Merriweather;
+  @media screen and (max-width: 480px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  height: 75vh;
+
+   
+  }
 }
 .e-main-info-1 {
   position: absolute;
@@ -93,6 +126,13 @@
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
+  @media screen and (max-width: 480px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  height: 75vh;
+
+
+  }
 }
 .e-main-info-2 {
   position: absolute;
@@ -105,6 +145,12 @@
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
+  @media screen and (max-width: 480px) {
+    align-items: center;
+    height: 75vh;
+margin-top:20px;
+    flex-direction: column-reverse;
+  }
 }
 
 .e-description {
@@ -127,6 +173,14 @@
   @media screen and (max-width: 1400px) {
     font-size: large;
   }
+  @media screen and (max-width: 480px) {
+    font-size: medium;
+  width: 75%;
+  height: 40%;
+  align-items: stretch;
+  align-content: center;
+
+  }
 }
 
 .e-title {
@@ -136,6 +190,9 @@
   color: #605175;
   @media screen and (max-width: 1400px) {
     font-size: xx-large;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: x-large;
   }
 }
 
@@ -151,6 +208,19 @@
   align-items: center;
   align-content: stretch;
   transition: transform 250ms;
+  @media screen and (max-width: 1400px) {
+    font-size: xx-large;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: x-large;
+  width: 100%;
+  padding: 0px;
+  margin-top: 0%;
+  height: 30%;
+
+
+
+  }
 }
 
 .e-photo:hover {
@@ -162,6 +232,11 @@
   background-color: #605175;
   color: white;
   font-family: Merriweather;
+  @media screen and (max-width: 480px) {
+    width: 50%;
+    font-size:small;
+
+  }
 }
 #project-button:hover {
   width: 40%;
@@ -171,12 +246,13 @@
 
 #proj-photo {
   width: 720px;
+
   @media screen and (max-width: 1400px) {
     width: 500px;
   }
-  @media screen and (max-width: 1440px) {
-    width: 610px;
-  }
+  @media screen and (max-width: 480px) {
+    width: 320px;
+    margin-bottom:10px;
 }
 
 .project-page {

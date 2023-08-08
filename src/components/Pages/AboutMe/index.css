@@ -15,6 +15,11 @@
     padding-top: 50px;
     height: 110vh;
   }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    padding-top: 0px;
+    justify-content: stretch;
+  }
 }
 
 .about-me-pic {
@@ -26,12 +31,21 @@
     margin-left: 50px;
     margin-top: 50px;
   }
+  @media screen and (max-width: 480px) {
+    width: 250px;
+    margin-top: 10px;
+    padding: 15px;
+    filter: drop-shadow(-30px -30px 0px rgba(130, 115, 151, 0.6));
+  }
 }
 
 #sawara-abt {
   width: 500px;
   @media screen and (max-width: 1400px) {
     width: 450px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 290px;
   }
 }
 
@@ -44,6 +58,10 @@
 
   @media screen and (max-width: 1400px) {
     font-size: xxx-large;
+    letter-spacing: 1px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: x-large;
     letter-spacing: 1px;
   }
 }
@@ -68,6 +86,15 @@
 
     margin-top: 50px;
     font-size: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: medium;
+    padding-right: none;
+    padding: 20px;
+    height: 50vh;
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 90%;
   }
 }
 

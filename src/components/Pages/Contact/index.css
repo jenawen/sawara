@@ -15,6 +15,9 @@
     height: 120vh;
     padding-top: 30px;
   }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 }
 
 .contact-side {
@@ -24,6 +27,10 @@
   /* opacity: 40%; */
   margin-top: 80px;
   overflow-y: hidden;
+  @media screen and (max-width: 480px) {
+    width: 90%;
+    margin-top: 10px;
+  }
 }
 
 .contact-text {
@@ -49,6 +56,10 @@
     align-content: stretch;
     height: 85vh;
   }
+  @media screen and (max-width: 480px) {
+    font-size: medium;
+    height: 90vh;
+  }
 }
 
 .contact-inner-text {
@@ -64,6 +75,11 @@
 
 .contact-header {
   font-size: xxx-large;
+  @media screen and (max-width: 480px) {
+    font-size: x-large;
+    letter-spacing: 1px;
+    text-decoration: underline;
+  }
 }
 
 @keyframes fade-out {
@@ -92,6 +108,10 @@
     width: 65%;
     margin-top: 20%;
   }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    margin-top: -10%;
+  }
 }
 
 .env-fold {
@@ -101,6 +121,9 @@
 
   @media screen and (max-width: 1400px) {
     margin-bottom: 510px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 300px;
   }
 }
 
@@ -118,6 +141,10 @@
     height: 500px;
     margin-bottom: 380px;
   }
+  @media screen and (max-width: 480px) {
+    width: 290px;
+    height: 400px;
+  }
 }
 .env-form-1 {
   width: 590px;
@@ -132,6 +159,10 @@
     width: 480px;
     height: 500px;
     margin-bottom: 250px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 290px;
+    height: 400px;
   }
 }
 .env-form-2 {
@@ -148,6 +179,10 @@
     height: 420px;
     margin-bottom: 150px;
   }
+  @media screen and (max-width: 480px) {
+    width: 290px;
+    height: 290px;
+  }
 }
 .env-form-3 {
   width: 590px;
@@ -162,6 +197,10 @@
     width: 480px;
     height: 300px;
     margin-bottom: 50px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 290px;
+    height: 200px;
   }
 }
 
@@ -189,6 +228,9 @@
   margin-top: 140px;
   @media screen and (max-width: 1400px) {
     margin-top: 80px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 40px;
   }
 }
 
@@ -245,6 +287,27 @@
     align-content: stretch;
     padding: 3px 10px;
   }
+  @media screen and (max-width: 480px) {
+    border: 1px solid black;
+    border-radius: 16px;
+    font-size: medium;
+    color: black;
+
+    background-color: white;
+    position: absolute;
+    z-index: 8;
+    top: 255px;
+    left: 115px;
+    /* need media query lol */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding: 3px 10px;
+  }
 }
 
 /* .send:hover {
@@ -268,6 +331,9 @@ input {
     width: 78%;
     font-size: 15px;
   }
+  @media screen and (max-width: 480px) {
+    font-size: small;
+  }
 }
 textarea {
   width: 80%;
@@ -279,6 +345,9 @@ textarea {
     width: 78%;
     height: 60px;
     font-size: 15px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: small;
   }
 }
 
@@ -293,6 +362,9 @@ input::placeholder-shown {
   @media screen and (max-width: 1400px) {
     width: 645px;
   }
+  @media screen and (max-width: 480px) {
+    width: 365px;
+  }
 }
 
 #front {
@@ -300,6 +372,9 @@ input::placeholder-shown {
 
   @media screen and (max-width: 1400px) {
     width: 645px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 365px;
   }
 }
 
@@ -310,6 +385,9 @@ input::placeholder-shown {
     width: 645px;
     /* margin-left: 5px; */
   }
+  @media screen and (max-width: 480px) {
+    width: 365px;
+  }
 }
 
 #closed {
@@ -318,6 +396,9 @@ input::placeholder-shown {
   @media screen and (max-width: 1400px) {
     width: 677px;
   }
+  @media screen and (max-width: 480px) {
+    width: 397px;
+  }
 }
 
 #seal {
@@ -325,5 +406,8 @@ input::placeholder-shown {
 
   @media screen and (max-width: 1400px) {
     width: 677px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 397px;
   }
 }
