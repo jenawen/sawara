@@ -36,8 +36,7 @@
   font-family: Merriweather;
   @media screen and (max-width: 480px) {
     padding: 0px 0px 0px 0px;
-  align-content: center;
-
+    align-content: center;
   }
 }
 
@@ -58,10 +57,8 @@
   background: #fefbfe;
   @media screen and (max-width: 480px) {
     height: 85%;
-  margin-left: 0%;
-  width: 85%;
-
-
+    margin-left: 0%;
+    width: 85%;
   }
 }
 .e-backing-1 {
@@ -73,10 +70,8 @@
   background: #fefbfe;
   @media screen and (max-width: 480px) {
     height: 85%;
-  margin-right: 0%;
-  width: 85%;
-
-
+    margin-right: 0%;
+    width: 85%;
   }
 }
 .e-backing-2 {
@@ -88,10 +83,8 @@
   background: #fefbfe;
   @media screen and (max-width: 480px) {
     height: 88%;
-  margin-left: 0%;
-  width: 85%;
-
-
+    margin-left: 0%;
+    width: 85%;
   }
 }
 
@@ -110,9 +103,7 @@
   @media screen and (max-width: 480px) {
     flex-direction: column-reverse;
     align-items: center;
-  height: 75vh;
-
-   
+    height: 75vh;
   }
 }
 .e-main-info-1 {
@@ -129,9 +120,7 @@
   @media screen and (max-width: 480px) {
     flex-direction: column-reverse;
     align-items: center;
-  height: 75vh;
-
-
+    height: 75vh;
   }
 }
 .e-main-info-2 {
@@ -148,7 +137,7 @@
   @media screen and (max-width: 480px) {
     align-items: center;
     height: 75vh;
-margin-top:20px;
+    margin-top: 20px;
     flex-direction: column-reverse;
   }
 }
@@ -169,17 +158,15 @@ margin-top:20px;
   align-items: stretch;
   align-content: stretch;
   font-family: opensans;
-
   @media screen and (max-width: 1400px) {
     font-size: large;
   }
   @media screen and (max-width: 480px) {
     font-size: medium;
-  width: 75%;
-  height: 40%;
-  align-items: stretch;
-  align-content: center;
-
+    width: 75%;
+    height: 40%;
+    align-items: stretch;
+    align-content: center;
   }
 }
 
@@ -213,13 +200,10 @@ margin-top:20px;
   }
   @media screen and (max-width: 480px) {
     font-size: x-large;
-  width: 100%;
-  padding: 0px;
-  margin-top: 0%;
-  height: 30%;
-
-
-
+    width: 100%;
+    padding: 0px;
+    margin-top: 0%;
+    height: 30%;
   }
 }
 
@@ -234,8 +218,7 @@ margin-top:20px;
   font-family: Merriweather;
   @media screen and (max-width: 480px) {
     width: 50%;
-    font-size:small;
-
+    font-size: small;
   }
 }
 #project-button:hover {
@@ -252,7 +235,8 @@ margin-top:20px;
   }
   @media screen and (max-width: 480px) {
     width: 320px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
+  }
 }
 
 .project-page {
@@ -386,10 +370,6 @@ p {
 li {
   font-size: 20px;
 }
-
-/* img {
-  margin-bottom: 24px;
-} */
 
 #project-btn {
   color: white;
