@@ -11,6 +11,9 @@
   font-family: Merriweather;
   /* padding: 0px 20px; */
   overflow-x: hidden;
+  @media screen and (max-width: 480px) {
+    padding: 30px 0px;
+  }
 }
 
 .projects-page-sections {
@@ -35,7 +38,7 @@
   height: 90vh;
   font-family: Merriweather;
   @media screen and (max-width: 480px) {
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     align-content: center;
   }
 }
