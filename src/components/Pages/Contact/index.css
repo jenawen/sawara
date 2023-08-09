@@ -123,7 +123,7 @@
     margin-bottom: 510px;
   }
   @media screen and (max-width: 480px) {
-    margin-bottom: 300px;
+    margin-bottom: 280px;
   }
 }
 
@@ -296,7 +296,7 @@
     background-color: white;
     position: absolute;
     z-index: 8;
-    top: 255px;
+    top: 265px;
     left: 115px;
     /* need media query lol */
     margin: auto;
@@ -309,11 +309,6 @@
     padding: 3px 10px;
   }
 }
-
-/* .send:hover {
-  background-color: white;
-  color: black;
-} */
 
 .li-link:hover {
   text-decoration: underline;
@@ -363,7 +358,7 @@ input::placeholder-shown {
     width: 645px;
   }
   @media screen and (max-width: 480px) {
-    width: 365px;
+    width: 345px;
   }
 }
 
@@ -374,7 +369,7 @@ input::placeholder-shown {
     width: 645px;
   }
   @media screen and (max-width: 480px) {
-    width: 365px;
+    width: 345px;
   }
 }
 
@@ -386,7 +381,7 @@ input::placeholder-shown {
     /* margin-left: 5px; */
   }
   @media screen and (max-width: 480px) {
-    width: 365px;
+    width: 345px;
   }
 }
 
@@ -397,7 +392,7 @@ input::placeholder-shown {
     width: 677px;
   }
   @media screen and (max-width: 480px) {
-    width: 397px;
+    width: 377px;
   }
 }
 
@@ -408,6 +403,6 @@ input::placeholder-shown {
     width: 677px;
   }
   @media screen and (max-width: 480px) {
-    width: 397px;
+    width: 377px;
   }
 }
