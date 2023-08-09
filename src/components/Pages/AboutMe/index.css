@@ -35,6 +35,8 @@
   @media screen and (max-width: 480px) {
     width: 250px;
     margin-top: 10px;
+    margin-left: 65px;
+
     padding: 5px;
     filter: drop-shadow(-30px -30px 0px rgba(130, 115, 151, 0.6));
   }
@@ -46,7 +48,7 @@
     width: 450px;
   }
   @media screen and (max-width: 480px) {
-    width: 290px;
+    width: 250px;
   }
 }
 
@@ -62,7 +64,7 @@
     letter-spacing: 1px;
   }
   @media screen and (max-width: 480px) {
-    font-size: medium;
+    font-size: large;
     letter-spacing: 1px;
   }
 }
@@ -70,12 +72,10 @@
 .about-me-text {
   height: 60vh;
   margin-top: 40px;
-
   font-size: x-large;
   width: 45%;
   padding-right: 60px;
   font-family: Merriweather;
-
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -89,11 +89,12 @@
     font-size: 20px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 15px;
     padding-right: none;
     padding: 20px 20px;
-    height: 60vh;
+    height: 100%;
     margin-top: 0px;
+    justify-content: space-around;
 
     width: 90%;
   }
