@@ -165,7 +165,8 @@
     font-size: large;
   }
   @media screen and (max-width: 480px) {
-    font-size: medium;
+    font-size: 14px;
+
     width: 75%;
     height: 50%;
     align-items: stretch;
@@ -182,7 +183,7 @@
     font-size: xx-large;
   }
   @media screen and (max-width: 480px) {
-    font-size: x-large;
+    font-size: medium;
   }
 }
 

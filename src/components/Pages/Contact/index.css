@@ -57,7 +57,7 @@
     height: 85vh;
   }
   @media screen and (max-width: 480px) {
-    font-size: medium;
+    font-size: 14px;
     height: 90vh;
   }
 }
@@ -76,7 +76,7 @@
 .contact-header {
   font-size: xxx-large;
   @media screen and (max-width: 480px) {
-    font-size: x-large;
+    font-size: medium;
     letter-spacing: 1px;
     text-decoration: underline;
   }
@@ -245,9 +245,9 @@
   color: black;
   padding: 5px;
   font-family: Merriweather;
-
-  /* position: absolute;
-  z-index: 6; */
+  @media screen and (max-width: 480px) {
+    font-size: medium;
+  }
 }
 
 .send {
@@ -327,7 +327,7 @@ input {
     font-size: 15px;
   }
   @media screen and (max-width: 480px) {
-    font-size: small;
+    font-size: 14px;
   }
 }
 textarea {
@@ -342,7 +342,7 @@ textarea {
     font-size: 15px;
   }
   @media screen and (max-width: 480px) {
-    font-size: small;
+    font-size: 14px;
   }
 }
 
