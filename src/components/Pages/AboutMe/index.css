@@ -1,6 +1,6 @@
 .about-me-page {
   height: 90vh;
-  background-color: rgba(233, 213, 218, 0.21);
+  background-color: #fff;
 
   color: black;
 
@@ -24,10 +24,10 @@
 }
 
 .about-me-pic {
-  padding: 50px;
+  /* padding: 50px; */
   margin-top: 60px;
-  filter: drop-shadow(-60px -30px 0px rgba(130, 115, 151, 0.6));
-  width: 475px;
+
+  width: 50%;
   @media screen and (max-width: 1400px) {
     margin-left: 50px;
     margin-top: 50px;
@@ -45,7 +45,7 @@
 #sawara-abt {
   width: 500px;
   @media screen and (max-width: 1400px) {
-    width: 450px;
+    width: 90%;
   }
   @media screen and (max-width: 480px) {
     width: 250px;
@@ -54,13 +54,13 @@
 
 .about-me-header {
   font-size: xxx-large;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   letter-spacing: 1px;
-  color: #605175;
+  color: black;
   font-family: Merriweather;
 
   @media screen and (max-width: 1400px) {
-    font-size: xxx-large;
+    font-size: 60px;
     letter-spacing: 1px;
   }
   @media screen and (max-width: 480px) {
@@ -70,10 +70,10 @@
 }
 
 .about-me-text {
-  height: 60vh;
-  margin-top: 40px;
+  height: 50vh;
+  /* margin-top: 40px; */
   font-size: x-large;
-  width: 45%;
+  width: 50%;
   padding-right: 60px;
   font-family: Merriweather;
   display: flex;
@@ -83,10 +83,10 @@
   align-items: stretch;
   align-content: stretch;
   @media screen and (max-width: 1400px) {
-    height: 80vh;
+    height: 70vh;
 
-    margin-top: 50px;
-    font-size: 20px;
+    /* margin-top: 50px; */
+    font-size: 18px;
   }
   @media screen and (max-width: 480px) {
     font-size: 15px;

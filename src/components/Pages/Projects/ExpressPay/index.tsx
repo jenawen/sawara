@@ -40,14 +40,15 @@ const ExpressPay = () => {
             <p>Figma</p>
           </div>
           <div className="mc-right">
-            {" "}
-            <div className="section-header">Credit One Bank</div>
-            <p>
-              Credit One Bank, N.A. is an American bank and financial services
-              company specializing in credit cards, particularly for borrowers
-              with low credit scores. It is a wholly-owned subsidiary of Credit
-              One Financial, incorporated in Nevada.
-            </p>
+            <div className="mc-right-text">
+              <div className="section-header">Credit One Bank</div>
+              <p>
+                Credit One Bank, N.A. is an American bank and financial services
+                company specializing in credit cards, particularly for borrowers
+                with low credit scores. It is a wholly-owned subsidiary of
+                Credit One Financial, incorporated in Nevada.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -221,17 +222,6 @@ const ExpressPay = () => {
           <p>
             If you want to learn more about this project, let’s set up a time
             and talk.
-          </p>
-        </div>
-
-        <div className="thanks">
-          {" "}
-          <div style={{ color: "white" }} className="section-header">
-            Thank You!
-          </div>
-          <p>
-            Thank you for reviewing my work. If you have any questions or want
-            to just connect - feel free to reach out to me via email.
           </p>
         </div>
       </div>

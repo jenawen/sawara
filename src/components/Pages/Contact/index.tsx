@@ -4,20 +4,10 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
-import envsides from "../../../assets/envsides.svg";
-import envfront from "../../../assets/envfront.svg";
-import envfold from "../../../assets/envfold.svg";
-import envClosed from "../../../assets/closeEnv.svg";
-import envSeal from "../../../assets/closeEnvSeal.svg";
-import { useEffect, useState } from "react";
+import li from "../../../assets/linkedin.svg";
+import mail from "../../../assets/email.svg";
 
 const Contact = () => {
-  const [envFrame, setEnvFrame] = useState("0");
-  const [submitted, setSubmitted] = useState(false);
-  const [moveFrame, setMoveFrame] = useState(false);
-  const [showEnvelope, setShowEnvelope] = useState("none");
-  const [sent, setSent] = useState("");
-
   const form_ep =
     " https://public.herotofu.com/v1/00856650-266c-11ee-8058-515da3888232";
 
@@ -45,8 +35,6 @@ const Contact = () => {
         if (!response.ok) {
           throw new Error("Form response was not ok");
         }
-        setEnvFrame("1");
-        setSubmitted(true);
       })
       .catch((err) => {
         e.target.submit();
@@ -54,120 +42,89 @@ const Contact = () => {
       });
   };
 
-  useEffect(() => {
-    if (submitted) {
-      setTimeout(() => {
-        setEnvFrame("2");
-        setMoveFrame(true);
-      }, 1000);
-    }
-  }, [submitted]);
-
-  useEffect(() => {
-    if (moveFrame) {
-      setTimeout(() => {
-        setEnvFrame("3");
-        setShowEnvelope("no seal");
-      }, 1000);
-    }
-  }, [moveFrame]);
-
-  useEffect(() => {
-    if (showEnvelope === "no seal") {
-      setTimeout(() => {
-        setShowEnvelope("with seal");
-        setSent("Sent!");
-      }, 1000);
-    }
-  }, [showEnvelope]);
-
-  useEffect(() => {
-    if (showEnvelope === "with seal") {
-      setTimeout(() => {
-        setShowEnvelope("none");
-        setEnvFrame("0");
-        setSent("");
-        setMoveFrame(false);
-      }, 8000);
-    }
-  }, [showEnvelope]);
-
   return (
     <>
       <div className="contact-page">
-        <div className="contact-side">
-          <div className="contact-text">
-            <div className="contact-inner-text">
+        <div className="c-title">Say Hi!</div>
+        <div className="c-form" style={{ textAlign: "left" }}>
+          <form action={form_ep} onSubmit={handleSubmit} method="POST">
+            <div className="c-inputs" style={{ textAlign: "left" }}>
               {" "}
-              <span className="contact-header">Contact</span>
-              <div>Phone : 626-321-7662</div>
-              <div>Email: bhattaraisawara2@gmail.com</div>
               <div
-                className="li-link"
-                onClick={() => {
-                  window.open(
-                    "https://www.linkedin.com/in/sawara-bhattarai/",
-                    "_blank"
-                  );
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  paddingBottom: "20px",
                 }}
               >
-                Linkedin
+                {" "}
+                Name
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  paddingBottom: "20px",
+                }}
+              >
+                Email
+                <input type="email" placeholder="Enter Email" name="email" />
+              </div>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  paddingBottom: "20px",
+                }}
+              >
+                Subject
+                <input type="text" placeholder="Enter Subject" name="subject" />
+              </div>
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                {" "}
+                Message
+                <textarea
+                  placeholder="Start typing..."
+                  name="message"
+                  required
+                />
               </div>
             </div>
-            <div>© 2023 by Sawara Bhattarai </div>
+
+            <div className="c-button">
+              <button className="c-btn" type="submit">
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div className="c-links">
+          <div>
+            <img src={li} />
+          </div>
+          &nbsp;
+          <div>
+            <img src={mail} />
           </div>
         </div>
-        <div className={`contact-envelope`}>
-          {sent ? <div className="contact-sent">{sent}</div> : null}
-          {showEnvelope === "none" ? (
-            <>
-              {" "}
-              <div className="env-fold">
-                {" "}
-                <img id={"fold"} src={envfold} />{" "}
-              </div>
-              <div className={`env-form-${envFrame}`}>
-                <form action={form_ep} onSubmit={handleSubmit} method="POST">
-                  <div className="inputs">
-                    Name
-                    <input
-                      type="text"
-                      placeholder="Your name"
-                      name="name"
-                      required
-                    />
-                    Email
-                    <input type="email" placeholder="Email" name="email" />
-                    Subject
-                    <input type="text" placeholder="Subject" name="subject" />
-                    Message
-                    <textarea
-                      placeholder="Your message"
-                      name="message"
-                      required
-                    />
-                  </div>
-                  <button type="submit" className="send">
-                    Send
-                  </button>
-                </form>
-              </div>
-              <div className="env-sides">
-                <img id={"sides"} src={envsides} />
-              </div>
-              <div className="env-front">
-                {" "}
-                <img id={"front"} src={envfront} />{" "}
-              </div>
-            </>
-          ) : showEnvelope === "no seal" ? (
-            <>
-              <img id={"closed"} src={envClosed} />
-            </>
-          ) : showEnvelope === "with seal" ? (
-            <img id={"seal"} src={envSeal} />
-          ) : null}
-        </div>
+
+        <div className="c-copyright">© 2022 by Sawara Bhattarai</div>
       </div>
     </>
   );

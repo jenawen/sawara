@@ -8,9 +8,9 @@ import KM from "./KM";
 import Crowdplat from "./Crowdplat";
 import cplogo from "../../../assets/cplogo.svg";
 import c1blogo from "../../../assets/c1blogo.svg";
-import kmlaptop from "../../../assets/km-laptop.svg";
-import eplaptop from "../../../assets/ep-laptop.svg";
-import cplaptop from "../../../assets/cp-laptop.svg";
+import kmlaptop from "../../../assets/kmnobg.svg";
+import eplaptop from "../../../assets/epnobg.svg";
+import cplaptop from "../../../assets/cpnobg.svg";
 import "../../../fonts/Merriweather-Regular.ttf";
 
 const Projects = (props: any) => {
@@ -59,10 +59,7 @@ const Projects = (props: any) => {
             <div className="projects-page-sections">
               {projects.map((e, i) => (
                 <div className={`each-project`} key={i}>
-                  <div className={`e-backing-${i}`}> </div>
-
-                  <div className={`e-main-info-${i}`}>
-                    {" "}
+                  <div className={`e-main-info`}>
                     <div className="e-description">
                       <div className="e-title">{e.projectTitle}</div>
                       <div style={{ fontFamily: "Merriweather" }}>

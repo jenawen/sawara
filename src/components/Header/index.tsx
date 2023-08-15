@@ -3,7 +3,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
-import sb from "../../assets/sb.svg";
+import sb from "../../assets/sblogo.svg";
 import dl from "../../assets/dl-blk.svg";
 import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
@@ -77,14 +77,6 @@ const Header = (props: any) => {
         >
           {" "}
           Resume
-          <img
-            id="dl"
-            style={{
-              width: "20px",
-              marginLeft: "5px",
-            }}
-            src={dl}
-          />
         </a>
       </div>
     </div>

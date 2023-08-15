@@ -38,12 +38,14 @@ const Crowdplat = () => {
             <p>Figma</p>
           </div>
           <div className="mc-right">
-            <div className="section-header">Crowdplat</div>
-            <p>
-              Crowdplat is a crowdsourcing company that builds software
-              applications or data science algorithms, runs crowdsourcing
-              challenges, hires contingent or full time staff, and more.
-            </p>
+            <div className="mc-right-text">
+              <div className="section-header">Crowdplat</div>
+              <p>
+                Crowdplat is a crowdsourcing company that builds software
+                applications or data science algorithms, runs crowdsourcing
+                challenges, hires contingent or full time staff, and more.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -230,14 +232,6 @@ const Crowdplat = () => {
               {" "}
               here!
             </span>
-          </p>
-        </div>
-
-        <div className="thanks">
-          <div className="section-header-alt">Thank You!</div>
-          <p>
-            Thank you for reviewing my work. If you have any questions or want
-            to just connect - feel free to reach out to me via email.
           </p>
         </div>
       </div>

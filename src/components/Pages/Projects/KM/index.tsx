@@ -15,7 +15,7 @@ const KM = () => {
   }, []);
   return (
     <>
-      <div className="project-header">Knowledge Home</div>
+      <div className="project-header">Knowledge Management</div>
       <div className="project-desc">
         A modern web application for the company's knowledge base
       </div>
@@ -37,13 +37,15 @@ const KM = () => {
             <p>Figma</p>
           </div>
           <div className="mc-right">
-            <div className="section-header">Credit One Bank</div>
-            <p>
-              Credit One Bank, N.A. is an American bank and financial services
-              company specializing in credit cards, particularly for borrowers
-              with low credit scores. It is a wholly-owned subsidiary of Credit
-              One Financial, incorporated in Nevada.
-            </p>
+            <div className="mc-right-text">
+              <div className="section-header">Credit One Bank</div>
+              <p>
+                Credit One Bank, N.A. is an American bank and financial services
+                company specializing in credit cards, particularly for borrowers
+                with low credit scores. It is a wholly-owned subsidiary of
+                Credit One Financial, incorporated in Nevada.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -141,24 +143,26 @@ const KM = () => {
         </div>
 
         <div className="design-process">
-          {" "}
-          <div className="section-header">Design Process</div>
-          <p>A basic stripped down architecture of the app</p>
-          <img style={{ display: "block", margin: "auto" }} src={km1} />
-          <img style={{ display: "block", margin: "auto" }} src={km2} />
-          <p>
-            Key features added:
-            <ul>
-              <li>Search Filtering and Sorting Options</li>
-              <li>
-                Each artifact has specific tags which can be used in conjunction
-                with the search/sort feature thus getting more specific results
-                back.
-              </li>
-            </ul>
-          </p>
-          <img style={{ display: "block", margin: "auto" }} src={km3} />
-          <img style={{ display: "block", margin: "auto" }} src={km4} />
+          <div>
+            {" "}
+            <div className="section-header">Design Process</div>
+            <p>A basic stripped down architecture of the app</p>
+            <img style={{ display: "block", margin: "auto" }} src={km1} />
+            <img style={{ display: "block", margin: "auto" }} src={km2} />
+            <p>
+              Key features added:
+              <ul>
+                <li>Search Filtering and Sorting Options</li>
+                <li>
+                  Each artifact has specific tags which can be used in
+                  conjunction with the search/sort feature thus getting more
+                  specific results back.
+                </li>
+              </ul>
+            </p>
+            <img style={{ display: "block", margin: "auto" }} src={km3} />
+            <img style={{ display: "block", margin: "auto" }} src={km4} />
+          </div>
           <ul>
             <li>Contribution Page (CS Call Agents, Writer, Admin)</li>
           </ul>
@@ -180,15 +184,6 @@ const KM = () => {
           <p>
             If you want to learn more about this project, let’s set up a time
             and talk.
-          </p>
-        </div>
-
-        <div className="thanks">
-          {" "}
-          <div className="section-header-alt">Thank You!</div>
-          <p>
-            Thank you for reviewing my work. If you have any questions or want
-            to just connect - feel free to reach out to me via email.
           </p>
         </div>
       </div>
