@@ -59,7 +59,6 @@ const Contact = () => {
                 }}
               >
                 {" "}
-                Name
                 <input
                   type="text"
                   placeholder="Full Name"
@@ -75,7 +74,6 @@ const Contact = () => {
                   paddingBottom: "20px",
                 }}
               >
-                Email
                 <input type="email" placeholder="Enter Email" name="email" />
               </div>
               <div
@@ -86,7 +84,6 @@ const Contact = () => {
                   paddingBottom: "20px",
                 }}
               >
-                Subject
                 <input type="text" placeholder="Enter Subject" name="subject" />
               </div>
               <div
@@ -97,12 +94,7 @@ const Contact = () => {
                 }}
               >
                 {" "}
-                Message
-                <textarea
-                  placeholder="Start typing..."
-                  name="message"
-                  required
-                />
+                <textarea placeholder="Message" name="message" required />
               </div>
             </div>
 

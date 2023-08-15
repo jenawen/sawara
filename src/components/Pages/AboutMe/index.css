@@ -24,10 +24,10 @@
 }
 
 .about-me-pic {
-  /* padding: 50px; */
-  margin-top: 60px;
+  margin-left: 60px;
+  /* margin-top: 60px; */
 
-  width: 50%;
+  width: 40%;
   @media screen and (max-width: 1400px) {
     margin-left: 50px;
     margin-top: 50px;
@@ -43,7 +43,7 @@
 }
 
 #sawara-abt {
-  width: 500px;
+  width: 700px;
   @media screen and (max-width: 1400px) {
     width: 90%;
   }

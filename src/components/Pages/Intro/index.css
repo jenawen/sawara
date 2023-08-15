@@ -1,5 +1,5 @@
 .intro-page {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -9,6 +9,9 @@
   color: black;
   background-color: #fff;
   font-family: Merriweather;
+  @media screen and (max-width: 1400px) {
+    height: 90vh;
+  }
   @media screen and (max-width: 480px) {
     flex-direction: column;
   }
@@ -18,28 +21,53 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   align-content: stretch;
   max-width: 49%;
+  padding-bottom: 100px;
+  @media screen and (max-width: 1400px) {
+    justify-content: flex-start;
+
+    max-width: 49%;
+    padding: 0px 0px;
+  }
 }
 
 .i-name {
-  font-size: 78px;
+  font-size: 80px;
   width: 60%;
-  padding: 45px 0px 20px 0px;
+  padding: 30px 0px 20px 0px;
+  @media screen and (max-width: 1400px) {
+    font-size: 78px;
+    padding: 45px 0px 20px 0px;
+  }
 }
 
 .i-title {
-  font-size: 24px;
+  font-size: 26px;
   color: #774a16;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 35px 0px;
+  @media screen and (max-width: 1400px) {
+    font-size: 24px;
+    padding: 0px 0px 25px 0px;
+  }
 }
 
 .i-desc {
-  font-size: 18px;
+  font-size: 20px;
+  @media screen and (max-width: 1400px) {
+    font-size: 18px;
+  }
 }
 
 .i-picture {
   padding: 20px 0px;
+}
+
+#sawara {
+  width: 800px;
+  @media screen and (max-width: 1400px) {
+    width: 100%;
+  }
 }
