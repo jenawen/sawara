@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import "./index.css";
 import sb from "../../assets/sblogo.svg";
-import dl from "../../assets/dl-blk.svg";
+
 import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 

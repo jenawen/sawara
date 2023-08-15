@@ -6,8 +6,7 @@ import "./index.css";
 import ExpressPay from "./ExpressPay";
 import KM from "./KM";
 import Crowdplat from "./Crowdplat";
-import cplogo from "../../../assets/cplogo.svg";
-import c1blogo from "../../../assets/c1blogo.svg";
+
 import kmlaptop from "../../../assets/kmnobg.svg";
 import eplaptop from "../../../assets/epnobg.svg";
 import cplaptop from "../../../assets/cpnobg.svg";
@@ -22,7 +21,7 @@ const Projects = (props: any) => {
       projectImg: kmlaptop,
       projectDesc:
         "Designed a responsive web application for Credit One Bank's customer service department. Agents can access files and collaborate effectively, ensuring exceptional customer support.",
-      projectIcon: c1blogo,
+
       projectTemplate: "1",
     },
     {
@@ -30,7 +29,7 @@ const Projects = (props: any) => {
       projectImg: eplaptop,
       projectDesc:
         "Web Application for Credit One Bank's Express Pay, replacing the outdated system with a customer-centric, omni-channel platform. The result: faster issue resolution, shorter call times, and an enhanced 360-degree customer experience.",
-      projectIcon: c1blogo,
+
       projectTemplate: "2",
     },
 
@@ -39,7 +38,7 @@ const Projects = (props: any) => {
       projectImg: cplaptop,
       projectDesc:
         "Redesigned Crowdplat's website to enhance user engagement. Addressed usability issues through user research, wireframes, and prototypes.",
-      projectIcon: cplogo,
+
       projectTemplate: "1",
     },
   ];
