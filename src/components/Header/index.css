@@ -51,7 +51,7 @@
   }
 }
 .header-icon:hover {
-  filter: invert(92%) sepia(10%) saturate(363%) hue-rotate(299deg)
+  filter: invert(100%) sepia(60%) saturate(23%) hue-rotate(270deg)
     brightness(97%) contrast(88%);
   cursor: pointer;
 }

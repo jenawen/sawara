@@ -48,35 +48,21 @@
 
 /* width */
 ::-webkit-scrollbar {
-  display: none;
-  /* @media (max-width: 480px) {
-    width: 3px;
-    background: transparent;
-  } */
+  width: none;
 }
 
-Track ::-webkit-scrollbar-track {
+/* Track */
+::-webkit-scrollbar-track {
   background: #f1f1f1;
-  @media (max-width: 480px) {
-    width: 0px;
-    background: transparent;
-  }
+  width: 8px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
-  @media (max-width: 480px) {
-    width: 0px;
-    background: transparent;
-  }
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #817f7f;
-  @media (max-width: 480px) {
-    width: 0px;
-    background: transparent;
-  }
+  background: #555;
 }
