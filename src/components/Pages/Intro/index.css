@@ -17,6 +17,7 @@
   }
   @media screen and (max-width: 360px) {
     flex-direction: column-reverse;
+    /* height: 86vh; */
   }
 }
 
@@ -53,7 +54,7 @@
     padding: 45px 0px 20px 0px;
   }
   @media screen and (max-width: 360px) {
-    width: 70%;
+    width: 100%;
     font-size: 38px;
     padding: 15px;
   }
@@ -89,7 +90,7 @@
 .i-picture {
   padding: 20px 0px;
   @media screen and (max-width: 1400px) {
-    padding: 5px 0px;
+    padding: 5px;
   }
 }
 
