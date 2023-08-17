@@ -143,38 +143,59 @@ const KM = () => {
         </div>
 
         <div className="design-process">
-          <div>
-            {" "}
-            <div className="section-header">Design Process</div>
-            <p>A basic stripped down architecture of the app</p>
-            <img style={{ display: "block", margin: "auto" }} src={km1} />
-            <img style={{ display: "block", margin: "auto" }} src={km2} />
-            <p>
-              Key features added:
-              <ul>
-                <li>Search Filtering and Sorting Options</li>
-                <li>
-                  Each artifact has specific tags which can be used in
-                  conjunction with the search/sort feature thus getting more
-                  specific results back.
-                </li>
-              </ul>
-            </p>
-            <img style={{ display: "block", margin: "auto" }} src={km3} />
-            <img style={{ display: "block", margin: "auto" }} src={km4} />
-          </div>
+          {" "}
+          <div className="section-header">Design Process</div>
+          <p>A basic stripped down architecture of the app</p>
+          <img style={{ margin: "auto", display: "block" }} src={km1} />
+          <img
+            style={{ margin: "auto", display: "block", paddingTop: "15px" }}
+            src={km2}
+          />
+        </div>
+
+        <div className="key-features">
+          <p>
+            <div className="section-header">Key features added: </div>
+            <ul>
+              <li>Search Filtering and Sorting Options</li>
+              <li>
+                Each artifact has specific tags which can be used in conjunction
+                with the search/sort feature thus getting more specific results
+                back.
+              </li>
+            </ul>
+          </p>
+
+          <img
+            style={{ margin: "auto", display: "block", padding: "10px 0px" }}
+            src={km3}
+          />
+          <img
+            style={{ margin: "auto", display: "block", padding: "10px 0px" }}
+            src={km4}
+          />
+
           <ul>
             <li>Contribution Page (CS Call Agents, Writer, Admin)</li>
           </ul>
-          <img style={{ display: "block", margin: "auto" }} src={km5} />
+          <img
+            style={{ margin: "auto", display: "block", padding: "10px 0px" }}
+            src={km5}
+          />
           <ul>
             <li>Feedback System</li>
           </ul>
-          <img style={{ display: "block", margin: "auto" }} src={km6} />
+          <img
+            style={{ margin: "auto", display: "block", padding: "10px 0px" }}
+            src={km6}
+          />
           <ul>
             <li>Content History Page</li>
           </ul>
-          <img style={{ display: "block", margin: "auto" }} src={km7} />
+          <img
+            style={{ margin: "auto", display: "block", padding: "10px 0px" }}
+            src={km7}
+          />
         </div>
 
         <div className="result">

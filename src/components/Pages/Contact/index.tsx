@@ -108,7 +108,15 @@ const Contact = () => {
 
         <div className="c-links">
           <div>
-            <img src={li} />
+            <img
+              onClick={() => {
+                window.open(
+                  "https://www.linkedin.com/in/sawara-bhattarai/",
+                  "_blank"
+                );
+              }}
+              src={li}
+            />
           </div>
           &nbsp;
           <div>

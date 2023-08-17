@@ -170,24 +170,33 @@
   align-items: center;
   align-content: stretch;
   font-family: Merriweather;
+  padding: 0px 45px;
 }
 
 .project-header {
   font-size: 78px;
   font-family: Merriweather;
-
   color: black;
   padding-top: 26px;
   text-align: center;
+  @media screen and (max-width: 1400px) {
+    padding-top: 10px;
+    font-size: 60px;
+  }
 }
 
 .section-header {
   font-size: 40px;
-
   color: #774a16;
+  @media screen and (max-width: 1400px) {
+    font-size: 30px;
+  }
 }
 .section-header-alt {
   font-size: 35px;
+  @media screen and (max-width: 1400px) {
+    font-size: 25px;
+  }
 
   /* color: #4c2f63; */
 }
@@ -197,6 +206,9 @@
   padding-bottom: 26px;
   text-align: center;
   color: #774a16;
+  @media screen and (max-width: 1400px) {
+    font-size: 20px;
+  }
 }
 
 .my-contributions {
@@ -207,8 +219,7 @@
   align-items: stretch;
   align-content: stretch;
   margin-top: 24px;
-  padding: 30px 55px 30px 45px;
-  /* width: 100%; */
+  padding: 30px 0px;
   height: 100%;
 }
 
@@ -252,51 +263,70 @@
 .mc-header {
   font-size: 30px;
   font-weight: 600;
+  @media screen and (max-width: 1400px) {
+    font-size: 24px;
+  }
 }
 
 .overview {
-  /* width: 100%; */
+  width: 100%;
   background-color: #f4eee7;
   border-radius: 16px;
   /* width: 90%; */
   margin-top: 32px;
-  padding: 24px 45px;
+  padding: 24px 15px;
 }
 
 .issue {
-  padding: 24px 45px;
+  padding: 24px 0px;
 }
 .research {
-  /* width: 100vw; */
-  padding: 24px 45px;
+  width: 100%;
+
+  padding: 24px 0px;
   /* text-align: center; */
 }
 .insights {
-  padding: 24px 45px;
+  padding: 24px 0px;
+  width: 100%;
 }
 .goals {
-  padding: 24px 45px;
+  padding: 24px 0px;
+  width: 100%;
 }
 .design-process {
-  padding: 24px 45px;
-
+  padding: 24px 15px;
+  background-color: #f4eee7;
   border-radius: 16px;
+  width: 100%;
+}
+
+.key-features {
+  padding: 24px 0px;
+  width: 100%;
 }
 .result {
-  padding: 24px 45px;
-  margin-bottom: 30px;
-  width: 90%;
-  border-radius: 16px;
-  /* text-align: center; */
+  /* width: 100%; */
   background-color: #f4eee7;
+  border-radius: 16px;
+  width: 100%;
+  margin-top: 32px;
+  padding: 24px 15px;
+  margin-bottom: 30px;
 }
 
 p {
   font-size: 20px;
+  @media screen and (max-width: 1400px) {
+    font-size: 18px;
+  }
 }
 
 li {
   font-size: 20px;
+  @media screen and (max-width: 1400px) {
+    font-size: 18px;
+  }
 }
 
 #project-btn {
@@ -318,3 +348,8 @@ li {
     box-shadow: 4px 3px 8px gray;
   }
 }
+
+/* #km-photo {
+  margin: auto;
+  display: block;
+} */
