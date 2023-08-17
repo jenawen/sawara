@@ -181,8 +181,16 @@ const Crowdplat = () => {
               a consistent layout.
             </li>
           </ul>
-          <img style={{ display: "block", margin: "auto" }} src={cp1} />
-          <img style={{ display: "block", margin: "auto" }} src={cp2} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp1}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp2}
+          />
           <ul>
             <li>
               Move away from having just a landing page and have information
@@ -191,13 +199,25 @@ const Crowdplat = () => {
             </li>
           </ul>
 
-          <img style={{ display: "block", margin: "auto" }} src={cp3} />
-          <img style={{ display: "block", margin: "auto" }} src={cp4} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp3}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp4}
+          />
 
           <ul>
             <li>Layout for Desktop View</li>
           </ul>
-          <img src={cp5} style={{ display: "block", margin: "auto" }} />
+          <img
+            id={"project-images"}
+            src={cp5}
+            style={{ display: "block", margin: "auto" }}
+          />
 
           <ul>
             <li>Layout for Mobile View</li>
@@ -218,11 +238,31 @@ const Crowdplat = () => {
             Here are the final designs for the webpages and mobile app, after
             applying visual identity.
           </p>
-          <img style={{ display: "block", margin: "auto" }} src={cp6} />
-          <img style={{ display: "block", margin: "auto" }} src={cp7} />
-          <img style={{ display: "block", margin: "auto" }} src={cp8} />
-          <img style={{ display: "block", margin: "auto" }} src={cp9} />
-          <img style={{ display: "block", margin: "auto" }} src={cp10} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp6}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp7}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp8}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp9}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={cp10}
+          />
           <p>
             As of today, the site it live and you can check it{" "}
             <span

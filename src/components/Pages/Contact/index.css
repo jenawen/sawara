@@ -24,6 +24,9 @@
   color: black;
   font-size: 60px;
   padding: 0px 0px 40px 0px;
+  @media screen and (max-width: 360px) {
+    font-size: 18px;
+  }
 }
 
 .c-form {
@@ -46,6 +49,10 @@
   margin-left: 29%;
   height: 55vh;
   /* padding: 10px; */
+  @media screen and (max-width: 360px) {
+    margin-left: 12%;
+    /* font-size: 18px; */
+  }
 }
 
 .c-button {
@@ -80,21 +87,32 @@
   align-content: stretch;
   font-size: 16px;
   padding: 20px 0px;
+  color: black;
+  @media screen and (max-width: 360px) {
+    font-size: 12px;
+  }
 }
 
 input {
   width: 40%;
   padding: 15px;
   font-family: Merriweather;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   border-bottom: 1.5px solid #a76d29;
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
+    width: 70%;
+  }
 }
 
 input::placeholder {
-  font-size: 20px;
+  font-size: 18px;
 
   color: black;
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
+  }
 }
 
 input:focus,
@@ -110,12 +128,20 @@ textarea {
   border-bottom: 1.5px solid #a76d29;
   /* border-radius: 5px; */
   font-family: Merriweather;
-  font-size: 20px;
+  font-size: 18px;
   resize: none;
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
+    width: 70%;
+  }
 }
 
 textarea::placeholder {
-  font-size: 20px;
+  font-size: 18px;
 
   color: black;
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
+    width: 50%;
+  }
 }

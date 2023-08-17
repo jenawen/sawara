@@ -146,8 +146,13 @@ const KM = () => {
           {" "}
           <div className="section-header">Design Process</div>
           <p>A basic stripped down architecture of the app</p>
-          <img style={{ margin: "auto", display: "block" }} src={km1} />
           <img
+            id={"project-images"}
+            style={{ margin: "auto", display: "block" }}
+            src={km1}
+          />
+          <img
+            id={"project-images"}
             style={{ margin: "auto", display: "block", paddingTop: "15px" }}
             src={km2}
           />
@@ -169,10 +174,12 @@ const KM = () => {
           <img
             style={{ margin: "auto", display: "block", padding: "10px 0px" }}
             src={km3}
+            id={"project-images"}
           />
           <img
             style={{ margin: "auto", display: "block", padding: "10px 0px" }}
             src={km4}
+            id={"project-images"}
           />
 
           <ul>
@@ -181,6 +188,7 @@ const KM = () => {
           <img
             style={{ margin: "auto", display: "block", padding: "10px 0px" }}
             src={km5}
+            id={"project-images"}
           />
           <ul>
             <li>Feedback System</li>
@@ -188,6 +196,7 @@ const KM = () => {
           <img
             style={{ margin: "auto", display: "block", padding: "10px 0px" }}
             src={km6}
+            id={"project-images"}
           />
           <ul>
             <li>Content History Page</li>
@@ -195,6 +204,7 @@ const KM = () => {
           <img
             style={{ margin: "auto", display: "block", padding: "10px 0px" }}
             src={km7}
+            id={"project-images"}
           />
         </div>
 

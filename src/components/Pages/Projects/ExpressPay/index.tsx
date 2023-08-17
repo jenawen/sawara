@@ -133,8 +133,16 @@ const ExpressPay = () => {
             <li>Moderated testing</li>
             <li>Questionnaires</li>
           </ul>
-          <img style={{ display: "block", margin: "auto" }} src={ep1} />
-          <img style={{ display: "block", margin: "auto" }} src={ep2} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep1}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep2}
+          />
         </div>
 
         <div className="insights">
@@ -174,7 +182,11 @@ const ExpressPay = () => {
               that meets the needs of the bank and its customers.{" "}
             </li>
           </ul>
-          <img style={{ display: "block", margin: "auto" }} src={ep3} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep3}
+          />
         </div>
 
         <div className="goals">
@@ -204,15 +216,43 @@ const ExpressPay = () => {
           {" "}
           <div className="section-header">Design Process</div>
           <p>Information Architecture</p>
-          <img style={{ display: "block", margin: "auto" }} src={ep4} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep4}
+          />
           <p>Journey Maps</p>
-          <img style={{ display: "block", margin: "auto" }} src={ep5} />
-          <img style={{ display: "block", margin: "auto" }} src={ep6} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep5}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep6}
+          />
           <p>Wireframes</p>
-          <img style={{ display: "block", margin: "auto" }} src={ep7} />
-          <img style={{ display: "block", margin: "auto" }} src={ep8} />
-          <img style={{ display: "block", margin: "auto" }} src={ep9} />
-          <img style={{ display: "block", margin: "auto" }} src={ep10} />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep7}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep8}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep9}
+          />
+          <img
+            id={"project-images"}
+            style={{ display: "block", margin: "auto" }}
+            src={ep10}
+          />
         </div>
 
         <div className="result">
