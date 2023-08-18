@@ -11,11 +11,17 @@ import KM from "../Pages/Projects/KM";
 import Crowdplat from "../Pages/Projects/Crowdplat";
 import "../../fonts/Merriweather-Regular.ttf";
 import "../../fonts/Merriweather-Bold.ttf";
+import MobileHeader from "../Header/MobileHeader";
 
 const Wrapper = () => {
   const [page, setPage] = useState("intro");
   const [project, setProject] = useState("none");
   const [current, setCurrent] = useState(1);
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
 
   useEffect(() => {
     if (current === 6) {
@@ -49,15 +55,27 @@ const Wrapper = () => {
 
   return (
     <div className="parent-wrapper">
-      <div className="header-section d-none d-xl-block">
-        <Header
-          setPage={setPage}
-          page={page}
-          project={project}
-          setProject={setProject}
-          setCurrent={setCurrent}
-        />
-      </div>
+      {width > 480 ? (
+        <div className="header-section d-none d-xl-block">
+          <Header
+            setPage={setPage}
+            page={page}
+            project={project}
+            setProject={setProject}
+            setCurrent={setCurrent}
+          />
+        </div>
+      ) : (
+        <div className="header-section d-none d-xl-block">
+          <MobileHeader
+            setPage={setPage}
+            page={page}
+            project={project}
+            setProject={setProject}
+            setCurrent={setCurrent}
+          />
+        </div>
+      )}
 
       {project === "Express Pay" ? (
         <ExpressPay />
