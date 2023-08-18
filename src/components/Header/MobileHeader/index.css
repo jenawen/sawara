@@ -1,6 +1,6 @@
 .mobile-header-false {
   width: 100%;
-  background-color: rgba(248, 245, 241, 0.6);
+  background-color: white;
 
   display: flex;
   flex-direction: row;
