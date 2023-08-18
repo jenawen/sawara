@@ -186,6 +186,8 @@
   color: black;
   padding-top: 26px;
   text-align: center;
+  background-color: white;
+
   @media screen and (max-width: 1400px) {
     padding-top: 10px;
     font-size: 60px;
@@ -223,6 +225,8 @@
   padding-bottom: 26px;
   text-align: center;
   color: #774a16;
+  background-color: white;
+
   @media screen and (max-width: 1400px) {
     font-size: 20px;
   }
