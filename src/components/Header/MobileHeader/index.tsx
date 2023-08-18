@@ -7,7 +7,7 @@
 import { useState, useEffect } from "react";
 import "./index.css";
 import resume from "../../../../public/Sawara_Bhattarai_Resume.pdf";
-
+import logo from "../../../assets/sblogo.svg";
 const MobileHeader = (props: any) => {
   const [isOpen, setIsOpen] = useState(true);
   const { setPage, setProject, setCurrent } = props;
@@ -49,17 +49,33 @@ const MobileHeader = (props: any) => {
     };
   }, []);
 
+  useEffect(() => {
+    setIsOpen(false);
+  }, []);
+
   return (
-    <div className={`mobile-header-${isOpen}`}>
-      <div
-        onClick={() => {
-          toggle();
-        }}
-        className={`nav-toggle-${isOpen}`}
-      >
-        <div className={`bar-1-${isOpen}`}></div>
-        <div className={`bar-2-${isOpen}`}></div>
-        <div className={`bar-3-${isOpen}`}></div>
+    <>
+      <div className={`mobile-header-${isOpen}`}>
+        <img
+          src={logo}
+          id="mobile-logo"
+          onClick={() => {
+            setPage("projects");
+            setProject("none");
+            setCurrent(1);
+            setIsOpen(false);
+          }}
+        />
+        <div
+          onClick={() => {
+            toggle();
+          }}
+          className={`nav-toggle-${isOpen}`}
+        >
+          <div className={`bar-1-${isOpen}`}></div>
+          <div className={`bar-2-${isOpen}`}></div>
+          <div className={`bar-3-${isOpen}`}></div>
+        </div>
       </div>
 
       {isOpen ? (
@@ -111,7 +127,7 @@ const MobileHeader = (props: any) => {
           </div>
         </div>
       ) : null}
-    </div>
+    </>
   );
 };
 
