@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/restrict-template-expressions */
@@ -7,7 +10,7 @@ import resume from "../../../../public/Sawara_Bhattarai_Resume.pdf";
 
 const MobileHeader = (props: any) => {
   const [isOpen, setIsOpen] = useState(true);
-  const { setPage, page, setProject, setCurrent } = props;
+  const { setPage, setProject, setCurrent } = props;
 
   const navToggle = document.querySelector(".nav-toggle");
   const bars = document.querySelectorAll(".bar");
