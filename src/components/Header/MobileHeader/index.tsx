@@ -8,7 +8,14 @@ import { useState, useEffect } from "react";
 import "./index.css";
 import resume from "../../../../public/Sawara_Bhattarai_Resume.pdf";
 import logo from "../../../assets/sblogo.svg";
-const MobileHeader = (props: any) => {
+
+interface IMobileHeader {
+  setPage: React.Dispatch<React.SetStateAction<string>>;
+  setProject: React.Dispatch<React.SetStateAction<string>>;
+  setCurrent: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const MobileHeader = (props: IMobileHeader) => {
   const [isOpen, setIsOpen] = useState(true);
   const { setPage, setProject, setCurrent } = props;
 

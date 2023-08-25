@@ -10,7 +10,12 @@ import ExpressPay from "../../Pages/Projects/ExpressPay";
 import KM from "../../Pages/Projects/KM";
 import Crowdplat from "../../Pages/Projects/Crowdplat";
 
-const Projects2 = (props: any) => {
+interface IProjects2 {
+  setPage: React.Dispatch<React.SetStateAction<string>>;
+  page: string;
+}
+
+const Projects2 = (props: IProjects2) => {
   const { setPage, page } = props;
   const [project, setProject] = useState("none");
 

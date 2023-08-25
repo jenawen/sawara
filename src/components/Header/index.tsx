@@ -8,7 +8,14 @@ import sb from "../../assets/sblogo.svg";
 import { useEffect, useState } from "react";
 import resume from "../../../public/Sawara_Bhattarai_Resume.pdf";
 
-const Header = (props: any) => {
+interface IHeader {
+  setPage: React.Dispatch<React.SetStateAction<string>>;
+  page: string;
+  setProject: React.Dispatch<React.SetStateAction<string>>;
+  setCurrent: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const Header = (props: IHeader) => {
   const { setPage, page, setProject, setCurrent } = props;
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [, setIsIntro] = useState(true);

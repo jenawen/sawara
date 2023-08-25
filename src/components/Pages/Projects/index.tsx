@@ -12,7 +12,12 @@ import eplaptop from "../../../assets/epnobg.svg";
 import cplaptop from "../../../assets/cpnobg.svg";
 import "../../../fonts/Merriweather-Regular.ttf";
 
-const Projects = (props: any) => {
+interface IProjects {
+  project: string;
+  setProject: React.Dispatch<React.SetStateAction<string>>;
+}
+
+const Projects = (props: IProjects) => {
   const { project, setProject } = props;
 
   const projects = [

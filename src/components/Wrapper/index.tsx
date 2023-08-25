@@ -60,7 +60,6 @@ const Wrapper = () => {
           <Header
             setPage={setPage}
             page={page}
-            project={project}
             setProject={setProject}
             setCurrent={setCurrent}
           />
@@ -69,8 +68,6 @@ const Wrapper = () => {
         <div className="header-section d-none d-xl-block">
           <MobileHeader
             setPage={setPage}
-            page={page}
-            project={project}
             setProject={setProject}
             setCurrent={setCurrent}
           />

@@ -1,22 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import "./index.css";
 import sawara from "../../../assets/sawaraintro.svg";
-// import { useEffect, useState } from "react";
 
 const Intro = () => {
-  //   const fading = 1750;
-  //   const changeInterval = fading * 2;
-  //   type FadeProps = { fade: "fade-in" | "fade-out" };
-  //   const [fade, setFade] = useState<FadeProps>({ fade: "fade-in" });
-  //   const [order, setOrder] = useState(0);
-  //   const introWords = [
-  //     "Design.",
-  //     "Research.",
-  //     "Wireframe.",
-  //     "Prototype.",
-  //     "Test.",
-  //   ];
-
   return (
     <div className="intro-page">
       <div className="intro-text">
